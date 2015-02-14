@@ -39,11 +39,11 @@
                 <span>Contact</span>
             </a>
              <span>  
-                <a href="#"  class="navdropdown" onclick="pageTransition(3,-1)"> Technical Events </a>
+                <a href="#"   onclick="pageTransition(3,-1)"> Technical Events </a>
             </span>
 
             <span>  
-                <a href="#"  class="navdropdown" onclick="pageTransition(6,-1)">Non Technical Events </a>
+                <a href="#"   onclick="pageTransition(6,-1)">Non Technical Events </a>
             </span>
             <a href="#" onclick="pageTransition(4,-1)">
                 <span>Sponsors</span>
