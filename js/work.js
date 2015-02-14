@@ -365,4 +365,4 @@ var $main = $( '#pt-main' ),
 	}
 
 
-  $('.bxslider').bxSlider();
+  
