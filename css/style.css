@@ -29,163 +29,74 @@
 
 .wrapper {
     position: fixed;
+    margin: 0 auto;
     width: 100%;
+    height: 100%; 
     bottom: 40px;
 }
-.wrapper p {
-    clear: both;
-    font-size: 24px;
-    line-height: 40px;
-    text-align: center;
-}
-.reference {
-    padding-top: 40px;
-}
-.ei-slider {
-    position: relative;
-    width: 100%;
-    max-width: 1920px;
-    height: 400px;
-    margin: 0 auto;
-}
-.ei-slider-loading {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 999;
-    background: rgba(0, 0, 0, 0.9);
-    color: #fff;
-    text-align: center;
-    line-height: 400px;
-}
-.ei-slider-large {
-    height: 100%;
-    width: 100%;
-    position: relative;
+/* jssor slider bullet navigator skin 21 css */
+/*
+            .jssorb21 div           (normal)
+            .jssorb21 div:hover     (normal mouseover)
+            .jssorb21 .av           (active)
+            .jssorb21 .av:hover     (active mouseover)
+            .jssorb21 .dn           (mousedown)
+            */
+
+
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+    background: url(../img/b21.png) no-repeat;
     overflow: hidden;
-}
-.ei-slider-large li {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-}
-.ei-slider-large li img {
-    width: 100%;
-}
-.ei-title {
-    position: absolute;
-    right: 50%;
-    margin-right: 13%;
-    top: 30%;
-}
-.ei-title h2, .ei-title h3 {
-    text-align: right;
-}
-.ei-title h2 {
-    font-size: 40px;
-    line-height: 50px;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    color: #b5b5b5;
-}
-.ei-title h3 {
-    font-size: 70px;
-    line-height: 70px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-transform: uppercase;
-    color: #000;
-}
-.ei-slider-thumbs {
-    height: 13px;
-    margin: 0 auto;
-    position: relative;
-}
-.ei-slider-thumbs li {
-    position: relative;
-    float: left;
-    height: 100%;
-}
-.ei-slider-thumbs li.ei-slider-element {
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    height: 100%;
-    z-index: 10;
-    text-indent: -9000px;
-    background: #000;
-    background: rgba(0, 0, 0, 0.9);
-}
-.ei-slider-thumbs li a {
-    display: block;
-    text-indent: -9000px;
-    background: #666;
-    width: 100%;
-    height: 100%;
     cursor: pointer;
-    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
-    -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
-    -webkit-transition: background 0.2s ease;
-    -moz-transition: background 0.2s ease;
-    -o-transition: background 0.2s ease;
-    -ms-transition: background 0.2s ease;
-    transition: background 0.2s ease;
 }
-.ei-slider-thumbs li a:hover {
-    background-color: #f0f0f0;
+.jssorb21 div {
+    background-position: -5px -5px;
 }
-.ei-slider-thumbs li img {
+.jssorb21 div:hover, .jssorb21 .av:hover {
+    background-position: -35px -5px;
+}
+.jssorb21 .av {
+    background-position: -65px -5px;
+}
+.jssorb21 .dn, .jssorb21 .dn:hover {
+    background-position: -95px -5px;
+}
+/* jssor slider arrow navigator skin 21 css */
+/*
+            .jssora21l              (normal)
+            .jssora21r              (normal)
+            .jssora21l:hover        (normal mouseover)
+            .jssora21r:hover        (normal mouseover)
+            .jssora21ldn            (mousedown)
+            .jssora21rdn            (mousedown)
+            */
+
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {
     position: absolute;
-    bottom: 50px;
-    opacity: 0;
-    z-index: 999;
-    max-width: 100%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    -webkit-box-reflect: below 0px -webkit-gradient( linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    cursor: pointer;
+    display: block;
+    background: url(../img/a21.png) center center no-repeat;
+    overflow: hidden;
 }
-.ei-slider-thumbs li:hover img {
-    opacity: 1;
-    bottom: 13px;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+.jssora21l {
+    background-position: -3px -33px;
 }
-@media screen and (max-width: 830px) {
-    .ei-title {
-        position: absolute;
-        right: 0px;
-        margin-right: 0px;
-        width: 100%;
-        text-align: center;
-        top: auto;
-        bottom: 10px;
-        background: #fff;
-        background: rgba(255, 255, 255, 0.9);
-        padding: 5px 0;
-    }
-    .ei-title h2, .ei-title h3 {
-        text-align: center;
-    }
-    .ei-title h2 {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    .ei-title h3 {
-        font-size: 30px;
-        line-height: 40px;
-    }
+.jssora21r {
+    background-position: -63px -33px;
+}
+.jssora21l:hover {
+    background-position: -123px -33px;
+}
+.jssora21r:hover {
+    background-position: -183px -33px;
+}
+.jssora21ldn {
+    background-position: -243px -33px;
+}
+.jssora21rdn {
+    background-position: -303px -33px;
 }
 /* Items in events */
-
-
 
 .ch-grid {
     float: left;
