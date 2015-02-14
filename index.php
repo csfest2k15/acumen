@@ -38,11 +38,13 @@
             <a href="#" onclick="pageTransition(2,-1)">
                 <span>Contact</span>
             </a>
-            <a href="#" onclick="pageTransition(3,-1)">
-                <span>Events</span>
+             <span>  
+                <a href="#"  class="navdropdown" onclick="pageTransition(3,-1)"> Technical Events </a>
+            </span>
 
-
-            </a>
+            <span>  
+                <a href="#"  class="navdropdown" onclick="pageTransition(6,-1)">Non Technical Events </a>
+            </span>
             <a href="#" onclick="pageTransition(4,-1)">
                 <span>Sponsors</span>
             </a>
