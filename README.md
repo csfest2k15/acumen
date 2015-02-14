@@ -1,10 +1,10 @@
 #acumen
 acumen webpage Deployed at http://acumen2k15.herokuapp.com/
 
-Description of Web Site -
-
-  The Webpage consists of a NavBar -- "<div class="codrops-top clearfix ">.." ( from line 30 to 67 ) in index.php
+Description of Web Site
+  The Webpage consists of a NavBar ( from line 30 to 67 ) in index.php
   
+-----------------------------------------------------------------------------------------------------------------------------
   The webpage is mostly made up of a set of cool looking single pages.
   
   All Those single Pages are numbered from 0 to N (N=6, as for now) and are present inside the division "<div id="pt-main" class="pt-perspective">.." --> (reffered to as ["pt-main" div] from here on) (from line 69 to 415), important - The numbering is done in the same order that they appear in the div.
