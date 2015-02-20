@@ -23,6 +23,11 @@ body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #333;
 	//background: #333;
+	//background-image: url("../img/main_logo - Copy.png");
+	// background-size: 100% 100%;
+    //background-repeat: no-repeat;
+	//background-attachment: fixed;
+    //background-position: center; 
 	overflow: hidden;
 }
 

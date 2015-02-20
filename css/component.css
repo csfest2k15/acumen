@@ -44,7 +44,7 @@ html, body { height: 100%; }
 
 /* Text Styles, Colors, Backgrounds */
 
-.pt-page h1 {
+/* .pt-page h1 {
 	position: absolute;
 	font-weight: 300;
 	font-size: 4.4em;
@@ -67,7 +67,7 @@ html, body { height: 100%; }
 	letter-spacing: 0;
 	display: block;
 	opacity: 0.4;
-}
+} */
 
 .pt-page h1 strong {
 	color: rgba(0,0,0,0.1);
@@ -99,7 +99,7 @@ html, body { height: 100%; }
 
 /* Triggers (menu and button) */
 
-.pt-triggers {
+/* .pt-triggers {
 	position: absolute;
 	width: 300px;
 	z-index: 999999;
@@ -156,7 +156,7 @@ html, body { height: 100%; }
 .touch .pt-triggers .dl-menuwrapper {
 	display: none;
 }
-
+ */
 .pt-message {
 	display: none;
 	position: absolute;
