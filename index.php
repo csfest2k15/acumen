@@ -37,7 +37,7 @@
     }
     </style>
 
-  
+
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
      -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -61,68 +61,49 @@
         0%
     </div>
 
-  <script type="text/javascript">
-    function onReady(callback) {
-         var imagesloaded = 0;
+    <script type="text/javascript">
+    var imagesloaded = 0;
 
-        var img2load = new Array();
-        img2load.push("img/4.jpg");
-        img2load.push("img/5.jpg");
-        img2load.push("img/6.jpg");
-        img2load.push("img/a21.png");
-        img2load.push("img/b21.png");
-        img2load.push("img/b-a.png");
-        img2load.push("img/b-c.png");
-        img2load.push("img/b-e1.png");
-        img2load.push("img/b-w.png");
-        img2load.push("img/carousel.jpg");
-        img2load.push("img/main_logo.png");
-        img2load.push("img/opc_logo.png");
-        img2load.push("img/text.png");
+    var img2load = new Array();
+    img2load.push("img/4.jpg");
+    img2load.push("img/5.jpg");
+    img2load.push("img/6.jpg");
+    img2load.push("img/a21.png");
+    img2load.push("img/b21.png");
+    img2load.push("img/b-a.png");
+    img2load.push("img/b-c.png");
+    img2load.push("img/b-e1.png");
+    img2load.push("img/b-w.png");
+    img2load.push("img/carousel.jpg");
+    img2load.push("img/main_logo.png");
+    img2load.push("img/opc_logo.png");
+    img2load.push("img/text.png");
 
-        var totimg = img2load.length;
+    var totimg = img2load.length;
 
-        anImageLoaded = function() {
-            imagesloaded++;
-            document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
-            console.log(Math.floor(imagesloaded / totimg * 100));
+    anImageLoaded = function() {
+        imagesloaded++;
+        document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
+        console.log(Math.floor(imagesloaded / totimg * 100));
 
+    };
+
+    for (var i = 0; i < totimg; i++) {
+        var s = new Image();
+
+        s.onload = function() {
+            anImageLoaded();
         };
 
-        for (var i = 0; i < totimg; i++) {
-            var s = new Image();
+        s.onerror = function() {
+            anImageLoaded();
+            console.log("failed to load " + this.src);
 
-            s.onload = function() {
-                anImageLoaded();
-            };
-
-            s.onerror = function() {
-                anImageLoaded();
-                console.log("failed to load " + this.src);
-
-            };
-            s.src = img2load[i];
-        }
-        var intervalID = window.setInterval(checkReady, 1000);
-
-        function checkReady() {
-            if (document.getElementsByTagName('body')[0] !== undefined) {
-                window.clearInterval(intervalID);
-                callback.call(this);
-            }
-        }
+        };
+        s.src = img2load[i];
     }
-
-    function show(id, value) {
-        document.getElementById(id).style.display = value ? 'block' : 'none';
-    }
-
-    onReady(function() {
-        show('navbartop', true);
-        show('pt-main', true);
-        show('loading', false);
-    });
     </script>
+
 
 
     <div class="codrops-top clearfix " id="navbartop">
