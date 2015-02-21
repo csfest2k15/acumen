@@ -189,7 +189,6 @@
 
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(5,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
             <div class="contains">
                 <div class="container-fluid">
