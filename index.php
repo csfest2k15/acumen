@@ -37,7 +37,7 @@
     }
     </style>
 
-
+  
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
      -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -58,9 +58,71 @@
 
 
     <div id="loading">
-            0%
+        0%
     </div>
 
+  <script type="text/javascript">
+    function onReady(callback) {
+         var imagesloaded = 0;
+
+        var img2load = new Array();
+        img2load.push("img/4.jpg");
+        img2load.push("img/5.jpg");
+        img2load.push("img/6.jpg");
+        img2load.push("img/a21.png");
+        img2load.push("img/b21.png");
+        img2load.push("img/b-a.png");
+        img2load.push("img/b-c.png");
+        img2load.push("img/b-e1.png");
+        img2load.push("img/b-w.png");
+        img2load.push("img/carousel.jpg");
+        img2load.push("img/main_logo.png");
+        img2load.push("img/opc_logo.png");
+        img2load.push("img/text.png");
+
+        var totimg = img2load.length;
+
+        anImageLoaded = function() {
+            imagesloaded++;
+            document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
+            console.log(Math.floor(imagesloaded / totimg * 100));
+
+        };
+
+        for (var i = 0; i < totimg; i++) {
+            var s = new Image();
+
+            s.onload = function() {
+                anImageLoaded();
+            };
+
+            s.onerror = function() {
+                anImageLoaded();
+                console.log("failed to load " + this.src);
+
+            };
+            s.src = img2load[i];
+        }
+        var intervalID = window.setInterval(checkReady, 1000);
+
+        function checkReady() {
+            if (document.getElementsByTagName('body')[0] !== undefined) {
+                window.clearInterval(intervalID);
+                callback.call(this);
+            }
+        }
+    }
+
+    function show(id, value) {
+        document.getElementById(id).style.display = value ? 'block' : 'none';
+    }
+
+    onReady(function() {
+        show('navbartop', true);
+        show('pt-main', true);
+        show('loading', false);
+    });
+    </script>
 
 
     <div class="codrops-top clearfix " id="navbartop">
@@ -123,63 +185,66 @@
 
             </div>
 
+            <div class="container-fluid">
 
-
-            <div id="slider1_container" class="" style="position: fixed; margin: 0 auto; bottom: 30px; width: 1300px; height: 450px; overflow: hidden;">
-                <!-- Loading Screen -->
-                <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;">
+                <div id="slider1_container" class="" style="position: fixed; margin: 0 auto; bottom: 30px; width: 1300px; height: 450px; overflow: hidden;">
+                    <!-- Loading Screen -->
+                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;">
+                        </div>
+                        <div style="position: absolute; display: block; background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUOyPN4VE5s1gYaIZ5EAPImbQQEPkwuVDf8Zvevlqd8crdH22') no-repeat center center; top: 0px; left: 0px; width: 100%; height: 100%;">
+                        </div>
                     </div>
-                    <div style="position: absolute; display: block; background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUOyPN4VE5s1gYaIZ5EAPImbQQEPkwuVDf8Zvevlqd8crdH22') no-repeat center center; top: 0px; left: 0px; width: 100%; height: 100%;">
-                    </div>
-                </div>
-                <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
-                    <div>
-                        <img u="image" src="img/carousel.jpg" />
-                        <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px; text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
+                    <!-- Slides Container -->
+                    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                        <div>
+                            <img u="image" src="img/carousel.jpg" />
+                            <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px; text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
                         color: #000;">Accumen
+                            </div>
+                            <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px; text-align: left; line-height: 36px; font-size: 30px; color: #FFFFFF;">
+                                CS Fest 2015
+                            </div>
                         </div>
-                        <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px; text-align: left; line-height: 36px; font-size: 30px; color: #FFFFFF;">
-                            CS Fest 2015
-                        </div>
-                    </div>
-                    <div>
-                        <img u="image" src="img/carousel.jpg" />
-                        <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px; text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px; color: #000;">Creative
-                        </div>
-                        <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px; text-align: left; line-height: 36px; font-size: 30px;
+                        <div>
+                            <img u="image" src="img/carousel.jpg" />
+                            <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px; text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px; color: #000;">Creative
+                            </div>
+                            <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px; text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;">
-                            Awesomeness
+                                Awesomeness
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <img u="image" src="img/carousel.jpg" />
-                        <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px; text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
+                        <div>
+                            <img u="image" src="img/carousel.jpg" />
+                            <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px; text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
                         color: #000;">Fun!!
-                        </div>
-                        <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px; text-align: left; line-height: 36px; font-size: 30px;
+                            </div>
+                            <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px; text-align: left; line-height: 36px; font-size: 30px;
                         color: #FFFFFF;">
-                            Masti
+                                Masti
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Bullet Navigator Skin Begin -->
+
+                    <!-- bullet navigator container -->
+                    <div u="navigator" class="jssorb21" style="position: fixed; bottom: 36px; right: 50%">
+                        <!-- bullet navigator item prototype -->
+                        <div u="prototype" style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
+                    </div>
+                    <!-- Bullet Navigator Skin End -->
+
+                    <!-- Arrow Navigator Skin Begin -->
+
+                    <!-- Arrow Left -->
+                    <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;"></span>
+                    <!-- Arrow Right -->
+                    <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px"></span>
+
                 </div>
 
-                <!-- Bullet Navigator Skin Begin -->
-
-                <!-- bullet navigator container -->
-                <div u="navigator" class="jssorb21" style="position: fixed; bottom: 36px; right: 50%">
-                    <!-- bullet navigator item prototype -->
-                    <div u="prototype" style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
-                </div>
-                <!-- Bullet Navigator Skin End -->
-
-                <!-- Arrow Navigator Skin Begin -->
-
-                <!-- Arrow Left -->
-                <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;"></span>
-                <!-- Arrow Right -->
-                <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px"></span>
 
             </div>
 
@@ -187,13 +252,10 @@
 
 
 
-
-
-
             <div class="contains">
-                <div class="container-fluid">
 
-                </div>
+
+
             </div>
 
         </div>
