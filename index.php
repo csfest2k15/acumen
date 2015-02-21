@@ -370,18 +370,20 @@
         </div>
 
         <!-- 5. Non Technical Events -->
-        <div class="pt-page pt-page-5" style="background-color: #bbb;">
-            <div class="navcolor">
+        <div class="pt-page pt-page-5" style="background-color: #CDBA96;">
+            <div class="navcolor" style="">
 
             </div>
 
-            <div id="scroll">
+            <div class="contains">
                 <ul class="ch-grid">
                     <li>
                         <div class="ch-item ch-img-1">
                             <div class="ch-info">
-                                <h3>Use what you have</h3>
-                                <p>by Angela Duncan <a href="http://drbl.in/eOPF">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(24,-1);">
+                                    <h3>Tech-no tech</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -389,8 +391,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(25,-1);">
+                                    <h3>King of  Cards</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -398,8 +402,10 @@
                     <li>
                         <div class="ch-item ch-img-3">
                             <div class="ch-info">
-                                <h3>Pink Lightning</h3>
-                                <p>by Charlie Wagers <a href="http://drbl.in/ekhp">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(26,-1);">
+                                    <h3>Quikr</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -407,8 +413,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(27,-1);">
+                                    <h3>Who am I</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -416,8 +424,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(28,-1);">
+                                    <h3>Spy C</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -425,8 +435,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(29,-1);">
+                                    <h3>Wrong Turn</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -434,8 +446,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(30,-1);">
+                                    <h3>Smart Droid</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -443,8 +457,43 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(31,-1);">
+                                    <h3>CPU Assembly</h3>
+                                </a>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ch-item ch-img-2">
+                            <div class="ch-info">
+                                <a href="#" onclick="pageTransition(32,-1);">
+                                    <h3>Keyboard Assembly</h3>
+                                </a>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ch-item ch-img-2">
+                            <div class="ch-info">
+                                <a href="#" onclick="pageTransition(33,-1);">
+                                    <h3>Guess Who</h3>
+                                </a>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ch-item ch-img-2">
+                            <div class="ch-info">
+                                <a href="#" onclick="pageTransition(34,-1);">
+                                    <h3>It’s Appening</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -452,19 +501,8 @@
                 </ul>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(3,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
-
-
-            <div class="container-fluid">
-
-
-                <div class="contains">
-                    <h1></h1>
-
-
-                </div>
-            </div>
-
+            <!--  <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(5,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a>
+           </div> -->
 
         </div>
 
@@ -1136,6 +1174,313 @@
 
             <div class="arrow top-rht"> <a href="#" onclick="pageTransition(22,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
+
+        <!--  24. Tech-no Tech Contest Description  -->
+        <div class="pt-page pt-page-24" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Tech-no Tech</h1>
+                <div class="event-intro" style="color: black;">
+                    <p><b>Round1-</b> A word with blanks is given. Each blank should be answered with the given clue for which points will be given. For the number of clues taken to answer each blank credits given to that point will be reduced.</p>
+                    <p>
+                        <b>Round2-</b> This round will have a set of questions that has to be answered within a time limit.
+                    </p>
+
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(25,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(34,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  25. King Of Cards Contest Description -->
+        <div class="pt-page pt-page-25" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">King Of Cards</h1>
+                <div class="event-intro" style="color: black;">
+                    <p><b>Round1-</b> A set of 10 blurred images will be given (images might be any IT company logo/ founder personality). Out of the 10 images 7 should be answered to clear the round 1.</p>
+                    <p>
+                        <b>Round2-</b> A set of color cards having different questions will be there, pick a card and questions will be asked accordingly.
+
+
+                    </p>
+
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(26,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(24,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  26. Quikr Contest Description Part 1 -->
+        <div class="pt-page pt-page-26" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Quikr</h1>
+                <div class="event-intro" style="color: black;">
+                    <p><b>Round1-</b> Participant shall first pick a chit from a box of chits (specific category) and later they have to pick up all the words from another box of chits which would relate to the chit category picked up first. </p>
+                    <p>
+                        <b>Round2-</b>Simple C questions will be asked and the answers for those questions should be surfed from the box of chits.
+                    </p>
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(27,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(25,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  27. Who am I Contest Description Part 1 -->
+        <div class="pt-page pt-page-27" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Who am I</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>You got to roll the dice and set of questions will be asked as per the throw. A sample of questions is given as follows. </p>
+                    <p>
+                        Eg: I can find out the number of characters of a string
+                        <br>Ans: strlen
+
+                    </p>
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(28,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(26,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  28. Spy C Contest Description Part 1 -->
+        <div class="pt-page pt-page-28" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Spy C</h1>
+                <div class="event-intro" style="color: black;">
+                    <p><b>Round1-</b>In this round multiple choice questions on app logos, products and their usage, and on various platforms will be asked. </p>
+                    <p>
+                        <b>Round2-</b> In this round app logos will be displayed randomly for seconds and the contestants have to write the logos as many as they remember.
+                    </p>
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(29,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(27,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  29. Wrong Turn Contest Description Part 1 -->
+        <div class="pt-page pt-page-29" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Wrong Turn</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>This event would be tricky, participants have to answer the first question when the second question is asked and the flow continues. Whoever flows up with the questions till the last question and answer the first question after the last question wraps up the event</p>
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(30,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(28,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  30. Smart Droid Contest Description Part 1 -->
+        <div class="pt-page pt-page-30" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Smart Droid</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>A Quiz App(android app) is built and the apps play store link is placed in the website (ACUMEN official website), people who wish to play has to download and register.</p>
+
+                    <p><b>Round1-</b>After registration you’ll find round1 questions in the app, you need to answer them and if your score crosses the threshold score you will be promoted to round two. </p>
+                    <p>
+                        <b>Round2-</b>A clone of Round 1 with increase in difficulty level. These two rounds are offline (means offsite).
+                    </p>
+                    <p>
+                        <b>Round3-</b>This is onsite you have to use the App and the round will be activated onsite and the team with fastest and highest score will win.
+                    </p>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(31,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(29,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  31. CPU Assembly Contest Description Part 1 -->
+        <div class="pt-page pt-page-31" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">CPU Assembly</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Disassembled CPU will be given and a small demo of how the CPU is connected is showed before dismantling. Later you have to reassemble the CPU in the shortest possible time.</p>
+
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(32,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(30,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  32. Keyboard  Assembly Contest Description Part 1 -->
+        <div class="pt-page pt-page-32" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Keyboard  Assembly</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Disassembled Keyboard will be given and the keyboard in connected state is showed before dismantling. Later you have to reassemble the Keyboard in the shortest possible time.</p>
+
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(33,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(31,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+
+        <!--  33. Guess Who Contest Description Part 1 -->
+        <div class="pt-page pt-page-32" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Guess Who</h1>
+                <div class="event-intro" style="color: black;">
+
+                    <p><b>Round1-</b>It is time based event, participants are given a puzzle which contains snippets of code or basic parts of computer or a logo they have to complete the remains. </p>
+                    <p>
+                        <b>Round2-</b>This round declares the winner based on as many questions answered by the team. The questions would relate to personality and name the product built by that person(Clues will be given to identify them).
+                    </p>
+
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(34,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(32,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!--  34. It's Appening Contest Description Part 1 -->
+        <div class="pt-page pt-page-34" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">It's Appening</h1>
+                <div class="event-intro" style="color: black;">
+
+                    <p><b>Round1-</b>In this round multiple choice questions on app logos, products and their usage, and on various platforms will be asked. </p>
+                    <p>
+                        <b>Round2-</b>In this round app logos will be displayed randomly for seconds and the contestants have to write the logos as many as they remember.
+                    </p>
+
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(24,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(33,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+
+
+
+
 
 
 
