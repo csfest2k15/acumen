@@ -1,6 +1,12 @@
 html, body { height: 100%; }
 
+
+#navbartop {
+	display: none;
+}
+
 .pt-perspective {
+	display: none;
 	position: relative;
 	width: 100%;
 	height: 100%;

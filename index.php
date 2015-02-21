@@ -10,6 +10,22 @@
     <meta name="keywords" content="Accumen, CS FEST, VASAVI, CSE" />
     <meta name="author" content="little_bit_all" />
     <link rel="shortcut icon" href="favicon.ico">
+    <style type="text/css">
+    #loading {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        background-image: url("img/loading.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    </style>
+
 
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
      -->
@@ -30,7 +46,13 @@
 <body>
 
 
-    <div class="codrops-top clearfix ">
+    <div id="loading">
+
+    </div>
+
+
+
+    <div class="codrops-top clearfix " id="navbartop">
         <div class="container">
             <a href="#" onclick="pageTransition(0,-1)">
                 <span>Accumen</span>
@@ -1488,6 +1510,7 @@
 
     </div>
     <!-- main -->
+
 
 
 
