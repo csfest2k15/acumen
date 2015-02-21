@@ -405,7 +405,7 @@ onReady(function() {
         imagesloaded++;
         document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
         console.log(Math.floor(imagesloaded / totimg * 100));
-        setTimeout(function(){ },10000);
+        
     };
 
     for (var i = 0;i < totimg;i++){
