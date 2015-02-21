@@ -259,8 +259,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(8,-1);">
+                                    <h3>Online Treasure Hunt</h3>
+                                </a>
+                                <p>Work like a captain, play like a pirate.
                                 </p>
                             </div>
                         </div>
@@ -268,8 +270,10 @@
                     <li>
                         <div class="ch-item ch-img-3">
                             <div class="ch-info">
-                                <h3>Pink Lightning</h3>
-                                <p>by Charlie Wagers <a href="http://drbl.in/ekhp">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(10,-1);">
+                                    <h3>Project Expo</h3>
+                                </a>
+                                <p>Look what I've Done :)
                                 </p>
                             </div>
                         </div>
@@ -277,8 +281,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(12,-1);">
+                                    <h3>Paper <span style="margin-left:-14px;">Presentation</span></h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -286,8 +292,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(14,-1);">
+                                    <h3>Code Hunt</h3>
+                                </a>
+                                <p>we are the hunters they are the prey
                                 </p>
                             </div>
                         </div>
@@ -295,8 +303,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(16,-1);">
+                                    <h3>Final Destiny</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -304,8 +314,10 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(18,-1);">
+                                    <h3>Poster <span style="margin-left:-14px;">Presentation</span></h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -313,8 +325,21 @@
                     <li>
                         <div class="ch-item ch-img-2">
                             <div class="ch-info">
-                                <h3>Common Causes of Stains</h3>
-                                <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a>
+                                <a href="#" onclick="pageTransition(20,-1);">
+                                    <h3>Encoder</h3>
+                                </a>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ch-item ch-img-2">
+                            <div class="ch-info">
+                                <a href="#" onclick="pageTransition(22,-1);">
+                                    <h3>Engadget</h3>
+                                </a>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -324,14 +349,6 @@
 
             <!--  <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(5,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a>
            </div> -->
-
-
-            <div class="container-fluid">
-
-                <div class="contains">
-
-                </div>
-            </div>
 
         </div>
 
@@ -470,26 +487,26 @@
                         <span class="">Second Round :</span>
                         <span class="">Campus</span>
                         <br>
-                       <button type="button" class="btn btn-info" onclick="pageTransition(7,-1)">Details</button>
+                        <button type="button" class="btn btn-info" onclick="pageTransition(7,-1)">Details</button>
                     </p>
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184"> 
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
                 </div>
             </div>
-        
 
-         <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(7,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-          <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(7,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-           <div class="arrow top-lft"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(8,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(22,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
 
 
         </div>
-    
+
 
         <!-- 7. Online Programing Contest Description Part 2 -->
         <div class="pt-page pt-page-7" style="background-image: url(img/b-e1.png);">
@@ -501,11 +518,12 @@
                 <h1 style="text-align: center">Online Programing Contest Details </h1>
                 <div class="event-intro" style="color: black; ">
                     <p><b>First Round:</b> Online round. This round is open to all. Participants will be given certain questions and they would have to code the solutions. The problems will test your ingenuity, insight and your ability to optimize. All you need is a favourite text editor, a basic knowledge of C, C++/JAVA and the satisfaction of seeing your code work first time..</p>
-                    <p><b>Second Round:</b> This round is on campus event. The participants shortlisted from the first round will have to come down to Vasavi Campus for the second round. This round has some debugging questions where the team will be given an erroneous code and they will have to remove all the errors to produce the desired output. <br>Also other questions where the team has to produce the desired output given a code snippet. The team solving these questions correctly in minimum time wins!! </p>
+                    <p><b>Second Round:</b> This round is on campus event. The participants shortlisted from the first round will have to come down to Vasavi Campus for the second round. This round has some debugging questions where the team will be given an erroneous code and they will have to remove all the errors to produce the desired output.
+                        <br>Also other questions where the team has to produce the desired output given a code snippet. The team solving these questions correctly in minimum time wins!! </p>
 
                     <p>Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering. </p>
 
-                     <p style="padding-top: 30px;">
+                    <p style="padding-top: 30px;">
                         <span class="">For More Details :</span>
                         <span class="">Sone one : (999999999999999)</span>
                         <br>
@@ -513,26 +531,618 @@
                         <br>
                     </p>
 
-                    
+
 
                 </div>
-                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184"> 
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
                 </div>
             </div>
-        
 
-       
 
-          <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
 
-          
 
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
 
         </div>
 
+        <!--  8. Tresusre Hunt Contest Description Part 1 -->
+        <div class="pt-page pt-page-8" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Online Treasure Hunt</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Treasure hunting isn’t just for pirates or professionals anymore! Acumen Csfest presents Online Treasure Hunt which is an exciting interactive Game. Once you master your matching skills, you'll want to continue the challenge.</p>
+
+                    <p style="padding-top: 30px;">
+                        <span class="">First Round :</span>
+                        <span class="">Online</span>
+                        <br>
+                        <span class="">Second Round :</span>
+                        <span class="">Campus</span>
+                        <br>
+                        <button type="button" class="btn btn-info" onclick="pageTransition(9,-1)">Details</button>
+                    </p>
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(9,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(10,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 9. Treasure Hunt Contest Description Part 2 -->
+        <div class="pt-page pt-page-9" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Online Treasure Hunt Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p>The Event is of two Phases:
+                        <br>
+                        <b>Phase - 1</b> Pure Online Event.
+                        <br>
+                        <b>Phase - 2</b> The Teams that win the first round will have to attend Phase - 2 at Vasavi College of Engineering, Hyderabad. Teams winning phase 2 at College level are given Prize Money as well as Merit Certificate. Since the Event is Online, you have to use your greatest weapon i.e., Your Brain to Clear the Levels.
+                    </p>
+
+                    <p>
+                        Contest Website: <a href="#">http://www.vcefest.in/oth2014</a>
+                    </p>
+
+                    <p>Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering. </p>
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(8,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+        <!--  10. Project Expo Contest Description Part 1 -->
+        <div class="pt-page pt-page-10" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Project Expo</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Eager to get your projects officially appreciated?! This event provides you with a platform to present your projects and win prizes. Prepare one on spot or showcase your existing one! </p>
+                    <p>
+                        Participants are requested to get any additional software or hardware needed for the implementation of their projects. Technical support and guidance will be provided up to a limit.</p>
+
+                    <button type="button" class="btn btn-info" onclick="pageTransition(11,-1)">Details</button>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(11,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(12,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(8,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 11. Project Expo Contest Description Part 2 -->
+        <div class="pt-page pt-page-11" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center"> Project Expo Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p> <b>Rules</b>
+                        <br>Team should consist of 2 members.
+                        <br> Project can be in any language.
+                        <br> The team can register before the day of fest and also on the day of fest.
+                        <br> Along with the submission, a 10 minutes presentation is to be delivered.
+                        <br>
+
+                    </p>
+
+
+                    <p> The Round Consists of Project Execution and Demonstration (any kind of app like android,windows 8,iPhone etc can also be done)</p>
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(10,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+        <!--  12. Paper Presentation Contest Description Part 1 -->
+        <div class="pt-page pt-page-10" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Paper Presentation</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>As the popular adage goes “Exchanging ideas alone will leave you with more than what you start with; and exchanging everything else, will leave you with the same”. We, here at Vasavi strive to make it true. So for all those tech savvy folks brimming with ideas, bubbling with confidence and having the right acumen, your wait for the right opportunity to present your ideas to your fellow tech community is finally over. </p>
+                    <p>
+                        Paper presentation event of Acumen CSFest’14 is the best platform to place your ideas and solutions towards the latest and emerging technologies.</p>
+
+                    <button type="button" class="btn btn-info" onclick="pageTransition(13,-1)">Details</button>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(13,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(14,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(10,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 13. Paper Presentation Contest Description Part 2 -->
+        <div class="pt-page pt-page-11" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center"> Paper Presentation Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p> <b>Rules</b>
+                        <ul>
+                            <li>Registration fee is Rs.200 only (subjected to change). [Online Registration:225/- ]</li>
+                            <li>No paper will be taken in the last 2 days to the fest.</li>
+                            <li>A student can give only one paper. (Candidates however can submit more than one paper by paying the requisite amount for each paper but are allowed to present only one among them if selected)</li>
+                            <li>Maximum of 2 participants per group.</li>
+                            <li>Failing to be present when called in presentation will result in disqualification.</li>
+                            <li>No other topics apart from the topic opted will be entertained.</li>
+                            <li>Maximum 10 minute presentation.(8 minutes of talk followed by 2 minutes of questionnaire)</li>
+                            <li>Paper submitted should be restricted to 3 single sided A4 pages in IEEE format.</li>
+                            <li>Submit your papers to <i>acumen14paperpresentation@gmail.com</i> with
+                                <br> name,ph.no,mail-id,college name and Receipt No. (Your bank transaction no. for online applicants) </li>
+                            <li>Last date for submission is <i>2nd Jan,2014</i>
+                            </li>
+                            <li>All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners</li>
+                        </ul>
+                    </p>
+
+
+
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(12,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+        <!--  14. Code Hunt Contest Description Part 1 -->
+        <div class="pt-page pt-page-10" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Code Hunt</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Some Intresting Description of Code Hunt </p>
+                    <p>
+                        Anything more. </p>
+
+
+                    <button type="button" class="btn btn-info" onclick="pageTransition(15,-1)">Details</button>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(15,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(16,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(12,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 15. Code Hunt Contest Description Part 2 -->
+        <div class="pt-page pt-page-11" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center"> Code Hunt Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p> <b>First round - </b>The participant is given a encrypted text and he has to decrypt it. The text consists of the system name (IP address of the system). He has to search for the system with the corresponding IP address and there will be question in that system, answering that question he will be given another encrypted text to find other system name and answer the question. The team which takes minimum time to answer five questions will be promoted to the next round.
+
+                    </p>
+
+                    <p>
+                        <b>Second round-</b> Each question consists of a program in which few lines of the code will be missing. The participant needs to complete the missing code parts. Options will be given for each line of code. Then they have to choose the options in the correct order of missing lines of code. Each option will be represented by a color. Then the options have to be answered through the color of a coin (representing an option). All the coins should be placed in the correct sequence in a limited time.
+
+                    </p>
+
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(14,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+        <!--  16. Final Destiny Description Part 1 -->
+        <div class="pt-page pt-page-16" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Final Destiny</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Some Intresting Description of Final Destiny </p>
+                    <p>
+                        Anything more. </p>
+
+
+                    <button type="button" class="btn btn-info" onclick="pageTransition(17,-1)">Details</button>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(17,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(18,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(14,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 17. Final Destiny Contest Description Part 2 -->
+        <div class="pt-page pt-page-17" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center"> Final Destiny Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p> <b>First round - </b>Kya Hoga ??
+
+                    </p>
+
+                    <p>
+                        <b>Second round-</b> use badh kya hoga ??
+
+                    </p>
+
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(16,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+        <!--  18. Poster presentation Description Part 1 -->
+        <div class="pt-page pt-page-18" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Poster presentation</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Some Intresting Description of Poster presentation </p>
+                    <p>
+                        Anything more. </p>
+
+
+                    <button type="button" class="btn btn-info" onclick="pageTransition(19,-1)">Details</button>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(19,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(20,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(16,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 19. Poster presentation Contest Description Part 2 -->
+        <div class="pt-page pt-page-19" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center"> Poster presentation Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p> <b>First round - </b>Decide a theme (one or two) and the participants have to send a poster based on the theme. The best posters will be shortlisted for the second round.
+
+
+                    </p>
+
+                    <p>
+                        <b>Second round-</b> They will be given a set of themes and have to present the posters on the specified dimension paper (can be A4, A1).
+
+                    </p>
+
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(18,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+        <!--  20. Encoder Contest Description Part 1 -->
+        <div class="pt-page pt-page-20" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Encoder</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Some Intresting Description of Encoder </p>
+                    <p>
+                        Anything more. </p>
+
+
+                    <button type="button" class="btn btn-info" onclick="pageTransition(21,-1)">Details</button>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(21,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(22,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(18,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 21. Encoder Contest Description Part 2 -->
+        <div class="pt-page pt-page-21" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center"> Encoder Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p> <b>First round - </b>Based on memory/ encryption.
+
+
+                    </p>
+
+                    <p>
+                        <b>Second round-</b> Challenge them! If participant (p1) is given a question, he will be given a chance to pose that question to other participants there. If the other participant (p2) is able to answer the question, then p2 will get the points, if he couldn’t then p1 will be getting the points. Then p2 will be given chance to pose a question to others. This will continue for a time limit.
+
+                    </p>
+
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(20,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+        <!--  22. Engadget Contest Description Part 1 -->
+        <div class="pt-page pt-page-22" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center">Engadget</h1>
+                <div class="event-intro" style="color: black;">
+                    <p>Some Intresting Description of Engadget </p>
+                    <p>
+                        Anything more. </p>
+
+
+                    <button type="button" class="btn btn-info" onclick="pageTransition(23,-1)">Details</button>
+
+                </div>
+
+
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(23,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(20,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+        </div>
+
+        <!-- 23. Engadget Contest Description Part 2 -->
+        <div class="pt-page pt-page-23" style="background-image: url(img/b-e1.png);">
+            <div class="navcolor" style="background-color: #F0E68C;">
+
+            </div>
+
+            <div class="contains">
+                <h1 style="text-align: center"> Engadget Details </h1>
+                <div class="event-intro" style="color: black; ">
+                    <p> <b>First round - </b>It is an offline event (pen- paper). Multiple choice questions will be given.
+
+
+
+                    </p>
+
+                    <p>
+                        <b>Second round-</b> This is a buzzer round contest where the questions will be asked based on the latest technologies.
+
+
+                    </p>
+
+
+                    <p style="padding-top: 30px;">
+                        For details contact,
+                        <br> Someone: 999999999
+                        <br> Someone: : 999999999
+                    </p>
+
+
+
+                </div>
+                <div class="event-img">
+                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                </div>
+            </div>
+
+
+
+
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(22,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+        </div>
+
+
+
+
 
     </div>
+    <!-- main -->
 
 
 
@@ -551,6 +1161,7 @@
 
 
 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/jssor.js"></script>
 <script type="text/javascript" src="js/jssor.slider.js"></script>
 
