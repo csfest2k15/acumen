@@ -12,17 +12,28 @@
     <link rel="shortcut icon" href="favicon.ico">
     <style type="text/css">
     #loading {
-        display: block;
         position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 100;
-        width: 100vw;
-        height: 100vh;
+        top: 50%;
+        left: 50%;
+        margin-top: -128px;
+        margin-left: -128px;
+        width: 256px;
+        line-height: 256px;
+        height: 256px;
+        //display: block;
+        //position: absolute;
+        //top: 0;
+        //left: 0;
+        //z-index: 100;
+        //width: 100%;
+        //height: 100%;
+        font-size: 25px;
+        color: black;
         background-color: white;
         background-image: url("img/loading.gif");
         background-repeat: no-repeat;
         background-position: center;
+        text-align: center;
     }
     </style>
 
@@ -47,7 +58,7 @@
 
 
     <div id="loading">
-
+            0%
     </div>
 
 
