@@ -65,6 +65,7 @@
     var imagesloaded = 0;
 
     var img2load = new Array();
+    img2load.push("img/loading.gif");
     img2load.push("img/4.jpg");
     img2load.push("img/5.jpg");
     img2load.push("img/6.jpg");
@@ -73,12 +74,17 @@
     img2load.push("img/b-a.png");
     img2load.push("img/b-c.png");
     img2load.push("img/b-e1.png");
+    img2load.push("img/b-nte.png");
+    img2load.push("img/b-s.jpg");
+    img2load.push("img/b-te.png");
     img2load.push("img/b-w.png");
     img2load.push("img/carousel.jpg");
+    img2load.push("img/l-opc.png");
+    img2load.push("img/b-oth.png");
     img2load.push("img/main_logo.png");
     img2load.push("img/opc_logo.png");
     img2load.push("img/text.png");
-
+    
     var totimg = img2load.length;
 
     anImageLoaded = function() {
@@ -168,7 +174,7 @@
 
             <div class="container-fluid">
 
-                <div id="slider1_container" class="" style="position: fixed; margin: 0 auto; bottom: 30px; width: 1300px; height: 450px; overflow: hidden;">
+                <div id="slider1_container" class="" style="position: fixed; margin: 0 auto; left:0px; bottom: 30px; width: 1300px; height: 450px; overflow: hidden;">
                     <!-- Loading Screen -->
                     <div u="loading" style="position: absolute; top: 0px; left: 0px;">
                         <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;">
@@ -313,15 +319,15 @@
 
 
         <!-- 3. Technical Events -->
-        <div class="pt-page pt-page-3" style="background-color: #CDBA96;">
-            <div class="navcolor" style="">
+        <div class="pt-page pt-page-3" style="background-image: url('img/b-te.png');">
+            <div class="navcolor" style="background-color: #292421">
 
             </div>
 
             <div class="contains">
                 <ul class="ch-grid">
                     <li>
-                        <div class="ch-item ch-img-1">
+                        <div class="ch-item" style="background-image: url('img/l-opc.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(6,-1);">
                                     <h3>Online Programing Contest</h3>
@@ -332,7 +338,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item" style="background-image: url('img/l-oth.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(8,-1);">
                                     <h3>Online Treasure Hunt</h3>
@@ -343,7 +349,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-3">
+                        <div class="ch-item" style="background-image: url('img/5.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(10,-1);">
                                     <h3>Project Expo</h3>
@@ -428,7 +434,7 @@
         </div>
 
         <!-- 4. Sponsers -->
-        <div class="pt-page pt-page-4" style="background-color: white;">
+        <div class="pt-page pt-page-4" style="background-image: url('img/b-s.jpg');">
             <div class="navcolor" style="background-color: #123;">
 
             </div>
@@ -437,7 +443,7 @@
 
 
                 <div class="contains">
-                    <h1>Sponsers</h1>
+                   
 
                 </div>
             </div>
@@ -445,8 +451,8 @@
         </div>
 
         <!-- 5. Non Technical Events -->
-        <div class="pt-page pt-page-5" style="background-color: #CDBA96;">
-            <div class="navcolor" style="">
+        <div class="pt-page pt-page-5" style="background-image: url('img/b-nte.png');">
+            <div class="navcolor" style="background-color: #8B4513;">
 
             </div>
 
