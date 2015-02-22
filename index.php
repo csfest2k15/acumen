@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACCUMEN 2K15</title>
-    <meta name="description" content="Accumen 2015 Web Page " />
-    <meta name="keywords" content="Accumen, CS FEST, VASAVI, CSE" />
+    <title>Acumen 2K15</title>
+    <meta name="description" content="Acumen 2015 Web Page " />
+    <meta name="keywords" content="Acumen, CS FEST, VASAVI, CSE" />
     <meta name="author" content="little_bit_all" />
     <link rel="shortcut icon" href="favicon.ico">
     <style type="text/css">
@@ -115,7 +115,7 @@
     <div class="codrops-top clearfix " id="navbartop">
         <div class="container">
             <a href="#" onclick="pageTransition(0,-1)">
-                <span>Accumen</span>
+                <span>Acumen</span>
             </a>
             <a href="#" onclick="pageTransition(1,-1)">
                 <span>About</span>
@@ -187,7 +187,7 @@
                         <div>
                             <img u="image" src="img/carousel.jpg" />
                             <div style="position: absolute; width: 480px; height: 120px; top: 30px; left: 30px; padding: 5px; text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #000;">Accumen
+                        color: #000;">Acumen
                             </div>
                             <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px; text-align: left; line-height: 36px; font-size: 30px; color: #FFFFFF;">
                                 CS Fest 2015
