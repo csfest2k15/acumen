@@ -61,56 +61,7 @@
         0%
     </div>
 
-    <script type="text/javascript">
-    var imagesloaded = 0;
-
-    var img2load = new Array();
-    img2load.push("img/loading.gif");
-    img2load.push("img/4.jpg");
-    img2load.push("img/5.jpg");
-    img2load.push("img/6.jpg");
-    img2load.push("img/a21.png");
-    img2load.push("img/b21.png");
-    img2load.push("img/b-a.png");
-    img2load.push("img/b-c.png");
-    img2load.push("img/b-e1.png");
-    img2load.push("img/b-nte.png");
-    img2load.push("img/b-s.jpg");
-    img2load.push("img/b-te.png");
-    img2load.push("img/b-w.png");
-    img2load.push("img/carousel.jpg");
-    img2load.push("img/l-opc.png");
-    img2load.push("img/b-oth.png");
-    img2load.push("img/main_logo.png");
-    img2load.push("img/opc_logo.png");
-    img2load.push("img/text.png");
-    
-    var totimg = img2load.length;
-
-    anImageLoaded = function() {
-        imagesloaded++;
-        document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
-        console.log(Math.floor(imagesloaded / totimg * 100));
-
-    };
-
-    for (var i = 0; i < totimg; i++) {
-        var s = new Image();
-
-        s.onload = function() {
-            anImageLoaded();
-        };
-
-        s.onerror = function() {
-            anImageLoaded();
-            console.log("failed to load " + this.src);
-
-        };
-        s.src = img2load[i];
-    }
-    </script>
-
-
+  
 
     <div class="codrops-top clearfix " id="navbartop">
         <div class="container">
@@ -1591,6 +1542,56 @@
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/jssor.js"></script>
 <script type="text/javascript" src="js/jssor.slider.js"></script>
+
+  <script type="text/javascript">
+    var imagesloaded = 0;
+
+    var img2load = new Array();
+    img2load.push("img/loading.gif");
+    img2load.push("img/4.jpg");
+    img2load.push("img/5.jpg");
+    img2load.push("img/6.jpg");
+    img2load.push("img/a21.png");
+    img2load.push("img/b21.png");
+    img2load.push("img/b-a.png");
+    img2load.push("img/b-c.png");
+    img2load.push("img/b-e1.png");
+    img2load.push("img/b-nte.png");
+    img2load.push("img/b-s.jpg");
+    img2load.push("img/b-te.png");
+    img2load.push("img/b-w.png");
+    img2load.push("img/carousel.jpg");
+    img2load.push("img/l-opc.png");
+    img2load.push("img/b-oth.png");
+    img2load.push("img/main_logo.png");
+    img2load.push("img/opc_logo.png");
+    img2load.push("img/text.png");
+    
+    var totimg = img2load.length+1;
+
+    anImageLoaded = function() {
+        imagesloaded++;
+        document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
+
+    };
+
+    for (var i = 0; i < totimg; i++) {
+        var s = new Image();
+
+        s.onload = function() {
+            anImageLoaded();
+        };
+
+        s.onerror = function() {
+            anImageLoaded();
+            console.log("failed to load " + this.src);
+
+        };
+        s.src = img2load[i];
+    }
+    </script>
+
+
 
 <script>
 jssor_slider1_starter = function(containerId) {

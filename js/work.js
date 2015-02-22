@@ -368,6 +368,7 @@ function setAnimation(animation) {
 
         function checkReady() {
             if (document.getElementsByTagName('body')[0] !== undefined) {
+                document.getElementById('loading').innerHTML = "100%";
                 window.clearInterval(intervalID);
                 callback.call(this);
             }
