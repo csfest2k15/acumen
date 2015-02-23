@@ -11,7 +11,7 @@ Description of Web Site
   All Those single Pages are numbered from 0 to N (N=6, as for now) and are present inside the division "<div id="pt-main" class="pt-perspective">.." --> (reffered to as ["pt-main" div] from here on) (from line 69 to 415), important - The numbering is done in the same order that they appear in the div.
   
   ----------------------------------------------------------------------------------------------------------------------
-  Every Page inside the "pt-main" div can be written as follows
+  Every Page inside the "pt-main" div can be written as follows.
    <!-- N. Something -->
         <!-- The Below Div Gives Color to the Page-->
         <div class="pt-page pt-page-N" style="background-color: white;">
