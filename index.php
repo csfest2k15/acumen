@@ -286,7 +286,7 @@
                             <tr>
                                 <td class="imp">EMAIL </td>
                                 <td class="details">
-                                    Email us at - <b>giveanemailid@gmail.com</b>
+                                    Email us at - <b>csfest2k15@gmail.com</b>
                                     </br>
                                     Subject - <b>HELP DESK - YOUR SUBJECT</b>
                                 </td>
@@ -312,7 +312,7 @@
             <div class="contains">
                 <ul class="ch-grid">
                     <li>
-                        <div class="ch-item" style="background-image: url('img/l-opc.png');">
+                        <div class="ch-item" style="background-image: url('img/l-opc.png');height:220px; width:220px;">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(6,-1);">
                                     <h3>Online Programing Contest</h3>
@@ -334,7 +334,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item" style="background-image: url('img/5.jpg');">
+                        <div class="ch-item" style="background-image: url('img/l-pe.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(10,-1);">
                                     <h3>Project Expo</h3>
@@ -345,7 +345,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-ppt.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(12,-1);">
                                     <h3>Paper <span style="margin-left:-14px;">Presentation</span></h3>
@@ -356,7 +356,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-cdehunt.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(14,-1);">
                                     <h3>Code Hunt</h3>
@@ -367,7 +367,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-fin.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(16,-1);">
                                     <h3>Final Destiny</h3>
@@ -378,7 +378,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-pos.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(18,-1);">
                                     <h3>Poster <span style="margin-left:-14px;">Presentation</span></h3>
@@ -389,10 +389,10 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-geek.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(20,-1);">
-                                    <h3>Encoder</h3>
+                                    <h3>Geek <span style="margin-left:-14px;">Battle</span></h3>
                                 </a>
                                 <p>
                                 </p>
@@ -400,7 +400,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-eng.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(22,-1);">
                                     <h3>Engadget</h3>
@@ -444,7 +444,7 @@
             <div class="contains">
                 <ul class="ch-grid">
                     <li>
-                        <div class="ch-item ch-img-1">
+                        <div class="ch-item ch-img-1" style="background-image: url('img/l-s.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(24,-1);">
                                     <h3>Tech-no tech</h3>
@@ -455,7 +455,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-kin.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(25,-1);">
                                     <h3>King of  Cards</h3>
@@ -466,7 +466,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-3">
+                        <div class="ch-item ch-img-3" style="background-image: url('img/l-qui.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(26,-1);">
                                     <h3>Quikr</h3>
@@ -477,7 +477,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-who.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(27,-1);">
                                     <h3>Who am I</h3>
@@ -488,7 +488,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-spy.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(28,-1);">
                                     <h3>Spy C</h3>
@@ -499,7 +499,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2"  style="background-image: url('img/l-wro.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(29,-1);">
                                     <h3>Wrong Turn</h3>
@@ -510,7 +510,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-smrt.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(30,-1);">
                                     <h3>Smart Droid</h3>
@@ -521,7 +521,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-s.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(31,-1);">
                                     <h3>CPU Assembly</h3>
@@ -532,7 +532,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-s.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(32,-1);">
                                     <h3>Keyboard Assembly</h3>
@@ -543,7 +543,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-gue.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(33,-1);">
                                     <h3>Guess Who</h3>
@@ -554,7 +554,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-its.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(34,-1);">
                                     <h3>It’s Appening</h3>
@@ -591,22 +591,22 @@
                         <span class="">Second Round :</span>
                         <span class="">Campus</span>
                         <br>
-                        <button type="button" class="btn btn-info" onclick="pageTransition(7,-1)">Details</button>
+                        <button type="button" class="btn btn-info" onclick="pageTransition(7,3)">Details</button>
                     </p>
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-opc.png" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(7,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(7,3)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(8,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(8,1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(22,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(22,2)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
 
 
         </div>
@@ -639,14 +639,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-opc.png" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,4)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
 
         </div>
 
@@ -668,22 +668,22 @@
                         <span class="">Second Round :</span>
                         <span class="">Campus</span>
                         <br>
-                        <button type="button" class="btn btn-info" onclick="pageTransition(9,-1)">Details</button>
+                        <button type="button" class="btn btn-info" onclick="pageTransition(9,56 )">Details</button>
                     </p>
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-oth.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(9,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(9,56)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(10,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(10,13)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(6,29)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!-- 9. Treasure Hunt Contest Description Part 2 -->
@@ -718,14 +718,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-oth.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(8,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(8,61)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
         <!--  10. Project Expo Contest Description Part 1 -->
@@ -741,22 +741,22 @@
                     <p>
                         Participants are requested to get any additional software or hardware needed for the implementation of their projects. Technical support and guidance will be provided up to a limit.</p>
 
-                    <button type="button" class="btn btn-info" onclick="pageTransition(11,-1)">Details</button>
+                    <button type="button" class="btn btn-info" onclick="pageTransition(11,11)">Details</button>
 
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-proj.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(11,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(11,11)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(12,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(12,17)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(8,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(8,59)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!-- 11. Project Expo Contest Description Part 2 -->
@@ -790,14 +790,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-proj.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(10,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(10,16)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
         <!--  12. Paper Presentation Contest Description Part 1 -->
@@ -813,22 +813,22 @@
                     <p>
                         Paper presentation event of Acumen CSFest’14 is the best platform to place your ideas and solutions towards the latest and emerging technologies.</p>
 
-                    <button type="button" class="btn btn-info" onclick="pageTransition(13,-1)">Details</button>
+                    <button type="button" class="btn btn-info" onclick="pageTransition(13,3)">Details</button>
 
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-ppt.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(13,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(13,3)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(14,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(14,13)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(10,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(10,55)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!-- 13. Paper Presentation Contest Description Part 2 -->
@@ -850,9 +850,9 @@
                             <li>No other topics apart from the topic opted will be entertained.</li>
                             <li>Maximum 10 minute presentation.(8 minutes of talk followed by 2 minutes of questionnaire)</li>
                             <li>Paper submitted should be restricted to 3 single sided A4 pages in IEEE format.</li>
-                            <li>Submit your papers to <i>acumen14paperpresentation@gmail.com</i> with
+                            <li>Submit your papers to <i>ppt.vasavi@gmail.com </i> with
                                 <br> name,ph.no,mail-id,college name and Receipt No. (Your bank transaction no. for online applicants) </li>
-                            <li>Last date for submission is <i>2nd Jan,2014</i>
+                            <li>Last date for submission is <i>5th March,2015</i>
                             </li>
                             <li>All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners</li>
                         </ul>
@@ -871,14 +871,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-ppt.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(12,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(12,20)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
         <!--  14. Code Hunt Contest Description Part 1 -->
@@ -890,27 +890,25 @@
             <div class="contains">
                 <h1 style="text-align: center">Code Hunt</h1>
                 <div class="event-intro" style="color: black;">
-                    <p>Some Intresting Description of Code Hunt </p>
-                    <p>
-                        Anything more. </p>
+                    <p>This event would defienlty bring alacrity in all the passionate geeks out there. Get ready to decrypt the IP address and later you will have a chance to hunt for your code.</p>
 
 
-                    <button type="button" class="btn btn-info" onclick="pageTransition(15,-1)">Details</button>
+                    <button type="button" class="btn btn-info" onclick="pageTransition(15,60)">Details</button>
 
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-cdehunt.png" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(15,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(15,60)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(16,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(16,9)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(12,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(12,2)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!-- 15. Code Hunt Contest Description Part 2 -->
@@ -922,14 +920,16 @@
             <div class="contains">
                 <h1 style="text-align: center"> Code Hunt Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p> <b>First round - </b>The participant is given a encrypted text and he has to decrypt it. The text consists of the system name (IP address of the system). He has to search for the system with the corresponding IP address and there will be question in that system, answering that question he will be given another encrypted text to find other system name and answer the question. The team which takes minimum time to answer five questions will be promoted to the next round.
+                    <p> <b>First round - </b>The participant is given a encrypted text and he has to decrypt it. The text consists of the system name (IP address of the system). He has to search for the system with the corresponding IP address and there will be question in that system, answering that question he will be given another encrypted text to find other system name and answer the question. 
 
-                    </p>
+                    </p><p>The team which takes minimum time to answer five questions will be promoted to the next round.</p>
 
                     <p>
-                        <b>Second round-</b> Each question consists of a program in which few lines of the code will be missing. The participant needs to complete the missing code parts. Options will be given for each line of code. Then they have to choose the options in the correct order of missing lines of code. Each option will be represented by a color. Then the options have to be answered through the color of a coin (representing an option). All the coins should be placed in the correct sequence in a limited time.
+                        <b>Second round-</b> Each question consists of a program in which few lines of the code will be missing.</p>
 
-                    </p>
+                        <p>The participant needs to complete the missing code parts. Options will be given for each line of code. Then they have to choose the options in the correct order of missing lines of code. Each option will be represented by a color. Then the options have to be answered through the color of a coin (representing an option). All the coins should be placed in the correct sequence in a limited time.</p>
+
+                    
 
 
                     <p style="padding-top: 30px;">
@@ -942,14 +942,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-cdehunt.png" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(14,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(14,8)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
         <!--  16. Final Destiny Description Part 1 -->
@@ -961,27 +961,25 @@
             <div class="contains">
                 <h1 style="text-align: center">Final Destiny</h1>
                 <div class="event-intro" style="color: black;">
-                    <p>Some Intresting Description of Final Destiny </p>
-                    <p>
-                        Anything more. </p>
+                    <p>"Code hard.Party hard"-a tag line for software geeks. This is the event that matches up with our geeks.Lets us race with the remote cars in accordance with the passion for technology. </p>
 
 
-                    <button type="button" class="btn btn-info" onclick="pageTransition(17,-1)">Details</button>
+                    <button type="button" class="btn btn-info" onclick="pageTransition(17,48)">Details</button>
 
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-fin.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(17,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(17,48)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(18,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(18,23)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(14,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(14,51)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!-- 17. Final Destiny Contest Description Part 2 -->
@@ -993,13 +991,7 @@
             <div class="contains">
                 <h1 style="text-align: center"> Final Destiny Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p> <b>First round - </b>Kya Hoga ??
-
-                    </p>
-
-                    <p>
-                        <b>Second round-</b> use badh kya hoga ??
-
+                    <p> In this event the participant has to reach the end of the maze by crossing all the obstacles from the starting point. The main criteria here is that the participant should reach the destination with the help of remote cars. They have to control the cars. In the path from start to end, there will be obstacles and for crossing an obstacle the participant has to answer the question. It will be a simultaneous game by two players for two mazes.
                     </p>
 
 
@@ -1013,14 +1005,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-fin.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(16,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(16,26)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
         <!--  18. Poster presentation Description Part 1 -->
@@ -1032,27 +1024,26 @@
             <div class="contains">
                 <h1 style="text-align: center">Poster presentation</h1>
                 <div class="event-intro" style="color: black;">
-                    <p>Some Intresting Description of Poster presentation </p>
-                    <p>
-                        Anything more. </p>
+                    <p>In this event, contestants prepare a poster that showcases and effectively presents experiments with given objectives, new ideas related to the field. The main idea of the event is to analyze a topic and think with a new bent of mind. The more creative you get, the higher is your chance of impressing the panel. </p>
+                    
 
 
-                    <button type="button" class="btn btn-info" onclick="pageTransition(19,-1)">Details</button>
+                    <button type="button" class="btn btn-info" onclick="pageTransition(19,7)">Details</button>
 
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-pos.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(19,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(19,7)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(20,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(20,1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(16,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(16,14)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!-- 19. Poster presentation Contest Description Part 2 -->
@@ -1064,17 +1055,30 @@
             <div class="contains">
                 <h1 style="text-align: center"> Poster presentation Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p> <b>First round - </b>Decide a theme (one or two) and the participants have to send a poster based on the theme. The best posters will be shortlisted for the second round.
+                    <p> <b>First round - </b> Decide a theme from the given themes and the participants have to submit the poster abstracts along with the images (maximum of 3 images) describing your theme and submit to the specified mail id. The best posters will be shortlisted for the second round.
 
 
                     </p>
 
                     <p>
-                        <b>Second round-</b> They will be given a set of themes and have to present the posters on the specified dimension paper (can be A4, A1).
-
+                        <b>Second round-</b> Shortlisted people have to give a presentation of their selected abstract on the day of event, on a specified dimension paper (can be A4, A1 charts or posters). 
                     </p>
 
-
+<p><b>Rules<b/><br>
+•	Registration fee is Rs.200 only (subjected to change). <br>
+•	No paper will be taken in the last 2 days to the fest.<br>
+•	Participants can submit their abstract by contacting the organizers/volunteers in their nearest area from the Nodal Centers option provided.<br>
+•	Papers shortlisted will be notified through mail/sms on 4th march 2015.<br>
+•	A student can give only one paper. (Candidates however can submit more than one paper by paying the requisite amount for each paper but are allowed to present only one among them if selected)<br>
+•	Maximum of 2 participants per group.<br>
+•	Failing to be present when called in presentation will result in disqualification.<br>
+•	No other topics apart from the topic opted will be entertained.<br>
+•	Maximum 15 minute presentation.(13 minutes of talk followed by 2 minutes of questionnaire)<br>
+•	Submit your papers to poster.presentation.vce@gmail.com with 
+name,ph.no,mail-id,college name.<br>
+•	Last date for submission is 3rd March,2015<br>
+•	All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners<br>
+<p/>
                     <p style="padding-top: 30px;">
                         For details contact,
                         <br> Someone: 999999999
@@ -1085,65 +1089,66 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-pos.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(18,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(18,4)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
-        <!--  20. Encoder Contest Description Part 1 -->
+        <!--  20. Geek Battle Contest Description Part 1 -->
         <div class="pt-page pt-page-20" style="background-image: url(img/b-e1.png);">
             <div class="navcolor" style="background-color: #F0E68C;">
 
             </div>
 
             <div class="contains">
-                <h1 style="text-align: center">Encoder</h1>
+                <h1 style="text-align: center">Geek Battle</h1>
                 <div class="event-intro" style="color: black;">
-                    <p>Some Intresting Description of Encoder </p>
-                    <p>
-                        Anything more. </p>
+                    <p> Every battle is won before it?s ever fought. GeekBattle event is a battle for Geeks. All you have to do is to fight around with you code.   </p>
 
 
-                    <button type="button" class="btn btn-info" onclick="pageTransition(21,-1)">Details</button>
+                    <button type="button" class="btn btn-info" onclick="pageTransition(21,19)">Details</button>
 
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/l-geek.png" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(21,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(21,19)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(22,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(22,13)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(18,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(18,10)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
-        <!-- 21. Encoder Contest Description Part 2 -->
+        <!-- 21. Geek Battle Contest Description Part 2 -->
         <div class="pt-page pt-page-21" style="background-image: url(img/b-e1.png);">
             <div class="navcolor" style="background-color: #F0E68C;">
 
             </div>
 
             <div class="contains">
-                <h1 style="text-align: center"> Encoder Details </h1>
+                <h1 style="text-align: center"> Geek Battle Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p> <b>First round - </b>Based on memory/ encryption.
+                    <p> <b>Round 1: Arrange the code</b><br>A snippets of code will be given and those must be arranged into correct code within the time limit.
 
 
                     </p>
 
                     <p>
-                        <b>Second round-</b> Challenge them! If participant (p1) is given a question, he will be given a chance to pose that question to other participants there. If the other participant (p2) is able to answer the question, then p2 will get the points, if he couldn’t then p1 will be getting the points. Then p2 will be given chance to pose a question to others. This will continue for a time limit.
+                        <b>Round 2: Reverse Coding</b> <br>A hidden file will be given, it can be run as many times as they want. Input must be provided and an output will be generated based upon input and that output pattern must be recognized and coding must be done accordingly.
 
+                    </p> 
+                    <p>
+                        <b>Round 3: Challenge coding</b> 
                     </p>
 
 
@@ -1157,14 +1162,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/l-geek.png" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(20,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(20,12)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
         <!--  22. Engadget Contest Description Part 1 -->
@@ -1176,27 +1181,26 @@
             <div class="contains">
                 <h1 style="text-align: center">Engadget</h1>
                 <div class="event-intro" style="color: black;">
-                    <p>Some Intresting Description of Engadget </p>
-                    <p>
-                        Anything more. </p>
+                    <p>Engadget event specifies a trend of technology around us. We know that "Time and Tide wait for none" so be as quick you can and  show up your passion for technology. 
+inner</p>
 
 
-                    <button type="button" class="btn btn-info" onclick="pageTransition(23,-1)">Details</button>
+                    <button type="button" class="btn btn-info" onclick="pageTransition(23,56)">Details</button>
 
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-eng.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
-            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(23,-1)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
+            <div class="arrow btm-rht"> <a href="#" onclick="pageTransition(23,56)"><span class="fa fa-arrow-circle-down fa-3x"></span></a> </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(6,28)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(20,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(20,29)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!-- 23. Engadget Contest Description Part 2 -->
@@ -1208,15 +1212,19 @@
             <div class="contains">
                 <h1 style="text-align: center"> Engadget Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p> <b>First round - </b>It is an offline event (pen- paper). Multiple choice questions will be given.
+                    <p> <b>Round 1_watch and guess</b><br>
+Logos will be displayed on the screens for 45 seconds each, and you will have to guess and write them down on a paper .Top5 teams will be promoted to round 2
 
 
 
                     </p>
 
                     <p>
-                        <b>Second round-</b> This is a buzzer round contest where the questions will be asked based on the latest technologies.
+                        <b>Round 2-who am i</b> <br>U will be given sheets printed with logos and questions. 10 minutes time will be given .Top 2 teams will enter the finals
 
+                    </p>
+                    <p>
+                        <b>Round 3_rapid fire</b> <br>Top teams from all the slots will be taken and there will be a rapid fire round. Questions in this round would pertain to visuals, technology trends.
 
                     </p>
 
@@ -1231,14 +1239,14 @@
 
                 </div>
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-eng.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
 
 
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(22,-1)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(22,53)"><span class="fa fa-arrow-circle-up fa-3x"></span></a> </div>
         </div>
 
         <!--  24. Tech-no Tech Contest Description  -->
@@ -1264,9 +1272,9 @@
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(25,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(25,46)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(34,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(34,18)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  25. King Of Cards Contest Description -->
@@ -1290,13 +1298,13 @@
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-kin.png" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(26,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(26,54)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(24,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(24,47)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  26. Quikr Contest Description Part 1 -->
@@ -1316,13 +1324,13 @@
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-qui.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(27,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(27,58)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(25,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(25,24)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  27. Who am I Contest Description Part 1 -->
@@ -1344,13 +1352,13 @@
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-who.png" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(28,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(28,1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(26,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(26,6)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  28. Spy C Contest Description Part 1 -->
@@ -1362,21 +1370,21 @@
             <div class="contains">
                 <h1 style="text-align: center">Spy C</h1>
                 <div class="event-intro" style="color: black;">
-                    <p><b>Round1-</b>In this round multiple choice questions on app logos, products and their usage, and on various platforms will be asked. </p>
+                    <p><b>Round1-</b>A puzzle with hidden keywords is given and we have to search the keyword to complete the puzzle, keywords will be related to tech </p>
                     <p>
-                        <b>Round2-</b> In this round app logos will be displayed randomly for seconds and the contestants have to write the logos as many as they remember.
+                        <b>Round2-</b> In round-2 a code with bugs is given, participants have to fix those bugs and should also answer few multiple choice questions.
                     </p>
                 </div>
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-spy.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(29,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(29,28)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(27,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(27,14)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  29. Wrong Turn Contest Description Part 1 -->
@@ -1393,13 +1401,13 @@
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-wro.png" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(30,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(30,13)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(28,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(28,10)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  30. Smart Droid Contest Description Part 1 -->
@@ -1425,13 +1433,13 @@
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-smrt.png" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(31,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(31,46)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(29,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(29,18)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  31. CPU Assembly Contest Description Part 1 -->
@@ -1454,9 +1462,9 @@
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(32,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(32,54)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(30,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(30,24)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  32. Keyboard  Assembly Contest Description Part 1 -->
@@ -1479,9 +1487,9 @@
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(33,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(33,23)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(31,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(31,51)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
 
@@ -1505,13 +1513,13 @@
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-gue.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(34,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(34,5)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(32,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(32,29)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
         <!--  34. It's Appening Contest Description Part 1 -->
@@ -1534,13 +1542,13 @@
 
 
                 <div class="event-img">
-                    <img src="img/opc_logo.png" alt="" width="300" height="184">
+                    <img src="img/b-its.jpg" alt="" width="300" height="184">
                 </div>
             </div>
 
-            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(24,-1)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
+            <div class="arrow top-rht"> <a href="#" onclick="pageTransition(24,58)"><span class="fa fa-arrow-circle-right fa-3x"></span></a> </div>
 
-            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(33,-1)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
+            <div class="arrow top-lft"> <a href="#" onclick="pageTransition(33,6)"><span class="fa fa-arrow-circle-left fa-3x"></span></a> </div>
         </div>
 
 
