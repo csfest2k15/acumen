@@ -48,7 +48,7 @@ a:hover {
 	text-transform: uppercase;
 	position: fixed;
 	width: 100%;
-	font-size: 0.68em;
+	font-size: 0.72em;
 	line-height: 2.2;
 	z-index: 50000;
 	top: 0;
@@ -101,6 +101,30 @@ a:hover {
 .codrops-icon-about:before {
 	content: "\e003";
 }
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 9px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.1); 
+}
+
 
 @media screen and (max-width: 25em) { 
 	.codrops-icon span {

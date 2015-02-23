@@ -62,18 +62,19 @@
     </div>
 
 
-
+ 
     <div class="codrops-top clearfix " id="navbartop">
-        <div class="container">
             <a href="#" onclick="pageTransition(0,-1)">
                 <span>Acumen</span>
             </a>
-            <!-- <a href="#" onclick="pageTransition(1,-1)">
+            <!---
+            <a href="#" onclick="pageTransition(1,-1)">
                 <span>About</span>
             </a>
+            -->
             <a href="#" onclick="pageTransition(2,-1)">
                 <span>Contact</span>
-            </a> -->
+            </a>
 
             <span>  
 
@@ -109,7 +110,7 @@
                 <span>Tweet</span>
             </a>
             </span>
-        </div>
+        
     </div>
 
     <div id="pt-main" class="pt-perspective">
@@ -137,8 +138,17 @@
 
                             </div>
                             <div class="col-sm-6 text-center" style="color: white; text-align: justify;">
-                                <p class="lead">Acumen - National Symposium The pace of progress in the field of Science & Technology in this millennium has overshadowed the speed of Technological changes in the past decades. Technical Symposiums like Acumen are an effort to catch up with the pace of technological innovation. ACUMEN is a technical festival. The event seeks to achieve communication of innovative ideas that promote the cause of the technological advantage among the students and also to keep them abreast with the latest advances in their respective fields. It also opens a window to the participants to interact with people from different backgrounds and upgrade their knowledge. The theme "YOUTH-TECHNOLOGY-FUTURE" asserts the fact that the future of technology lies in the hands of the youth. This is the time for the students to draw out their talents in the areas related to academic routine.
-                                </p>
+                                <div class="about">
+                    <h1>Acumen - National Symposium</h1>
+                    <p>The pace of progress in the field of Science & Technology in this millennium has overshadowed the speed of Technological changes in the past decades. Technical Symposiums like Acumen are an effort to catch up with the pace of technological innovation.</p>
+                    <p>
+                        ACUMEN is a technical festival. The event seeks to achieve communication of innovative ideas that promote the cause of the technological advantage among the students and also to keep them abreast with the latest advances in their respective fields. It also opens a window to the participants to interact with people from different backgrounds and upgrade their knowledge.
+                    </p>
+                    <p>
+                        The theme "YOUTH-TECHNOLOGY-FUTURE" asserts the fact that the future of technology lies in the hands of the youth. This is the time for the students to draw out their talents in the areas related to academic routine.
+                    </p>
+                </div>
+                
                             </div>
                         </div>
                     </div>
@@ -217,22 +227,6 @@
                 </div>
                 <!-- /fourth section -->
 
-                <!-- fifth section -->
-                <div id="services" class="pad-section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <h3>Parallax scrolling effect is in action</h3>
-                                <h4>The next is the address on Google maps</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /fifth section -->
-
-                <!-- google map -->
-                <div id="google_map"></div>
-                <!-- /google map -->
 
             </div>
 
@@ -265,7 +259,7 @@
 
         <!-- 2. Contacts -->
         <div class="pt-page pt-page-2" style="background-image: url(img/b-c.png);">
-            <!-- <div class="navcolor" style="background-color: #F4A460;">
+        <div class="navcolor" style="background-color: #F4A460;">
             
             </div>
             
@@ -305,7 +299,7 @@
                 <div class=" c-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.82610661964!2d78.38269171871812!3d17.38046038482994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb942a230c2425%3A0xe4bfd802564aecf6!2sVasavi+Engineering+College%2C+9-5-81%2C+Ibrahimbagh%2C+Golkonda%2C+Hyderabad%2C+Andhra+Pradesh+500031!5e0!3m2!1sen!2sin!4v1387305921789" width="450" height="337" frameborder="0" style="border:0"></iframe>
                 </div>
-            </div> -->
+            </div>
         </div>
 
 

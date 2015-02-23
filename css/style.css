@@ -13,6 +13,9 @@
     width: 600px;
     height: 450px;
 }
+.about p {
+    color:white;
+}
 .a-video {
     float: left;
     display: block;
@@ -422,4 +425,5 @@
 
 #google_map {
   height: 500px;
+  width: 100%;
 }
