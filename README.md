@@ -46,3 +46,5 @@ Description of Web Site
   
   Line 82 to 138 and 432 to 616 are for the SlideShow.
   Line 187 to 263 and 320 to 396 are for The Event List.
+  
+  outdated.
