@@ -39,6 +39,7 @@ a {
 
 a:hover {
 	color: #fff;
+	text-decoration: none;
 }
 
 /* Header Style */
@@ -60,10 +61,12 @@ a:hover {
 	letter-spacing: 0.1em;
 	color: #fff;
 	display: inline-block;
+	text-decoration: none;
 }
 
 .codrops-top a:hover {
 	background: rgba(255,255,255,0.2);
+	text-decoration: none;
 }
 
 .codrops-top span.right {
@@ -72,7 +75,8 @@ a:hover {
 
 .codrops-top span.right a {
 	float: left;
-	display: block;
+	display: block; 
+	text-decoration: none;
 }
 
 .codrops-icon:before {
