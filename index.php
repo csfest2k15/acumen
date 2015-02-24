@@ -98,16 +98,16 @@
 
             <span class="right">
             <a class="" href="">
-                    <span>G+</span>
+                    <span><img src="img/gplus.png" alt="" width="25px" height="22px"></span>
             </a>
             <a class="" href="">
-                <span>FBLIKE</span>
+                <span><img src="img/fshare.png" alt="" width="25px" height="22px"></span>
             </a>
             <a class="" href="">
-                <span>YT</span>
+                <span><img src="img/youtube.png" alt="" width="25px" height="22px"></span>
             </a>
             <a class="" href="">
-                <span>Tweet</span>
+                <span><img src="img/twitter.png" alt="" width="25px" height="22px"></span>
             </a>
             </span>
         
@@ -277,10 +277,10 @@
                             <tr>
                                 <td class="imp">CONVENERS </td>
                                 <td class="details">
-                                    <b>SOME FULL NAME AND ITS LONG (+919999999999)</b> </br>
-                                    <b>SOME FULL NAME (+919999999999)</b> </br>
-                                    <b>SOME FULL NAME (+919999999999)</b> </br>
-                                    <b>SOME FULL NAME (+919999999999)</b> </br>
+                                    <b>Akhil Manchikanti (+919030139129)</b> </br>
+                                    <b>Pavan Sai  (+919999999999)</b> </br>
+                                    <b>Madhuri Arugula (+919966551674)</b> </br>
+                                    <b>Savita Kota (+919999999999)</b> </br>
                                 </td>
                             </tr>
                             <tr>
@@ -628,10 +628,14 @@
                     <p>Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering. </p>
 
                     <p style="padding-top: 30px;">
-                        <span class="">For More Details :</span>
-                        <span class="">Sone one : (999999999999999)</span>
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Sai Kiran: (+918886239995)</span>
                         <br>
-                        <span class="">Sone one : (999999999999999)</span>
+                        <span class="">Sai Madan Mohan Reddy: (+919550329534)</span>
+                        <br>
+                        <span class="">Spoorthy: (+919491445753)</span>
+                        <br>
+                        <span class="">Deepak Irukula: (+919700038395)</span>
                         <br>
                     </p>
 
@@ -709,9 +713,15 @@
                     <p>Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering. </p>
 
                     <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Hem Kumar: (+91999999999)</span>
+                        <br>
+                        <span class="">James Ballari: (+919912615067)</span>
+                        <br>
+                        <span class="">Iqra Tazeen: (+918977099669)</span>
+                        <br>
+                        <span class="">Sneha D: (+917207635337)</span>
+                        <br>
                     </p>
 
 
@@ -781,11 +791,16 @@
                     <p> The Round Consists of Project Execution and Demonstration (any kind of app like android,windows 8,iPhone etc can also be done)</p>
 
                     <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Ajay Dasa: (+91999999999)</span>
+                        <br>
+                        <span class="">Saikeerthana Varala: (+918374524399)</span>
+                        <br>
+                        <span class="">Manisha Vanka: (+918125151994)</span>
+                        <br>
+                        <span class="">Jagdeesh : (+917842200602)</span>
+                        <br>
                     </p>
-
 
 
                 </div>
@@ -861,11 +876,19 @@
 
 
 
+
                     <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Venkatesh Musku: (+919533813330)</span>
+                        <br>
+                        <span class="">Sahu Balanagaram: (+918121346484)</span>
+                        <br>
+                        <span class="">Rachana: (+919052699943)</span>
+                        <br>
+                        <span class="">Ujjwala : (+919492440428)</span>
+                        <br>
                     </p>
+
 
 
 
@@ -930,15 +953,17 @@
                         <p>The participant needs to complete the missing code parts. Options will be given for each line of code. Then they have to choose the options in the correct order of missing lines of code. Each option will be represented by a color. Then the options have to be answered through the color of a coin (representing an option). All the coins should be placed in the correct sequence in a limited time.</p>
 
                     
-
-
-                    <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+					<p style="padding-top: 30px;">
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Ravi Teja: (+917416116305)</span>
+                        <br>
+                        <span class="">Yamini Sai Lakshmi: (+918801799498)</span>
+                        <br>
+                        <span class="">Pratibha: (+919652894079)</span>
+                        <br>
+                        <span class="">Sai Kumar Alluri : (+919603225307)</span>
+                        <br>
                     </p>
-
-
 
                 </div>
                 <div class="event-img">
@@ -996,12 +1021,16 @@
 
 
                     <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Shivani: (+9199999999)</span>
+                        <br>
+                        <span class="">S.Priyanka: (+918801880385)</span>
+                        <br>
+                        <span class="">Nireesh: (+917386464537)</span>
+                        <br>
+                        <span class="">Venkatesha Kothuri : (+919885946050)</span>
+                        <br>
                     </p>
-
-
 
                 </div>
                 <div class="event-img">
@@ -1064,7 +1093,7 @@
                         <b>Second round-</b> Shortlisted people have to give a presentation of their selected abstract on the day of event, on a specified dimension paper (can be A4, A1 charts or posters). 
                     </p>
 
-<p><b>Rules<b/><br>
+<p><b>Rules</b><br>
 •	Registration fee is Rs.200 only (subjected to change). <br>
 •	No paper will be taken in the last 2 days to the fest.<br>
 •	Participants can submit their abstract by contacting the organizers/volunteers in their nearest area from the Nodal Centers option provided.<br>
@@ -1080,10 +1109,17 @@ name,ph.no,mail-id,college name.<br>
 •	All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners<br>
 <p/>
                     <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Abhishek: (+91999999999)</span>
+                        <br>
+                        <span class="">Pooja Sura: (+919966343955)</span>
+                        <br>
+                        <span class="">Vinod: (+919390392396)</span>
+                        <br>
+                        <span class="">Mereena : (+918520035145)</span>
+                        <br>
                     </p>
+
 
 
 
@@ -1153,10 +1189,17 @@ name,ph.no,mail-id,college name.<br>
 
 
                     <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Aravind: (+919999999999)</span>
+                        <br>
+                        <span class="">Vivek: (+919052930003)</span>
+                        <br>
+                        <span class="">Sushma: (+918686961121)</span>
+                        <br>
+                        <span class="">Sarender : (+919494929646)</span>
+                        <br>
                     </p>
+
 
 
 
@@ -1230,10 +1273,15 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
 
 
                     <p style="padding-top: 30px;">
-                        For details contact,
-                        <br> Someone: 999999999
-                        <br> Someone: : 999999999
+                        <span class=""><b>For More Details :</b></span><br>
+                        <span class="">Anjani: (+919999999999)</span>
+                        <br>
+                        <span class="">Aizaaz: (+919908483720)</span>
+                        <br>
+                        <span class="">Goli Varsha: (+919989093427)</span>
+                        <br>
                     </p>
+
 
 
 
