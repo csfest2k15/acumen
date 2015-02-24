@@ -42,14 +42,7 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
     <script src="js/modernizr.custom.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    var imagesloaded = 0;
-    anImageLoaded = function() {
-        imagesloaded++;
-        document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
-
-    };
-    </script>
+   
 
 
 </head>
@@ -123,10 +116,32 @@
             <div class="contains">
 
                 <!-- first section - Home -->
-                <div id="home" class="home">
+                 <div id="home" class="home">
                     <div class="text-vcenter">
+                        <!-- Place this code where you want the badge to render. -->
+                        <ul>
+                            <li>
+                                <div class="g-plusone" data-annotation="inline" data-width="300" data-href="https://plus.google.com/118002977867319053964/"></div>
+
+                            </li>
+                            <li>
+                               <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAcumenCsfest2k15&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=806763409341507" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/intent/tweet?button_hashtag=AcumenCsfest2k15" class="twitter-hashtag-button">Tweet #AcumenCsfest2k15</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                            </li>
+                        </ul>
+                        
                     </div>
                 </div>
+                <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
                 <!-- /first section -->
 
                 <!-- second section - About -->
@@ -1727,31 +1742,82 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
 
 
 <script type="text/javascript">
-
-
-var img2load = new Array();
 img2load.push("img/loading.gif");
 img2load.push("img/4.jpg");
 img2load.push("img/5.jpg");
 img2load.push("img/6.jpg");
 img2load.push("img/a21.png");
-img2load.push("img/b21.png");
 img2load.push("img/b-a.png");
 img2load.push("img/b-c.png");
+img2load.push("img/b-cdehunt.png");
 img2load.push("img/b-e1.png");
+img2load.push("img/b-eng.jpg");
+img2load.push("img/b-fin.jpg");
+img2load.push("img/b-gue.jpg");
+img2load.push("img/b-its.jpg");
+img2load.push("img/b-kin.png");
 img2load.push("img/b-nte.png");
+img2load.push("img/b-opc.png");
+img2load.push("img/b-oth.jpg");
+img2load.push("img/b-pos.jpg");
+img2load.push("img/b-ppt.jpg");
+img2load.push("img/b-proj.jpg");
+img2load.push("img/b-qui.jpg");
 img2load.push("img/b-s.jpg");
+img2load.push("img/b-smrt.png");
+img2load.push("img/b-spy.jpg");
 img2load.push("img/b-te.png");
 img2load.push("img/b-w.png");
+img2load.push("img/b-who.png");
+img2load.push("img/b-wro.png");
+img2load.push("img/b21.png");
 img2load.push("img/carousel.jpg");
+img2load.push("img/contact.png");
+img2load.push("img/estate.jpg");
+img2load.push("img/fshare.png");
+img2load.push("img/gplus.png");
+img2load.push("img/home.jpg");
+img2load.push("img/l-cdehunt.png");
+img2load.push("img/l-code.png");
+img2load.push("img/l-eng.jpg");
+img2load.push("img/l-fin.jpg");
+img2load.push("img/l-geek.png");
+img2load.push("img/l-gue.jpg");
+img2load.push("img/l-its.jpg");
+img2load.push("img/l-kin.png");
 img2load.push("img/l-opc.png");
-img2load.push("img/b-oth.png");
+img2load.push("img/l-oth.png");
+img2load.push("img/l-pe.jpg");
+img2load.push("img/l-pos.jpg");
+img2load.push("img/l-ppt.jpg");
+img2load.push("img/l-proj.jpg");
+img2load.push("img/l-qui.jpg");
+img2load.push("img/l-smrt.png");
+img2load.push("img/l-spy.png");
+img2load.push("img/l-who.png");
+img2load.push("img/l-wro.png");
+img2load.push("img/main code.png");
+img2load.push("img/main_logo - Copy.png");
 img2load.push("img/main_logo.png");
 img2load.push("img/opc_logo.png");
 img2load.push("img/text.png");
+img2load.push("img/twitter.png");
+img2load.push("img/youtube.png");
+
+     var totimg = img2load.length  ;
+        
 
 
-var totimg = img2load.length + 1;
+var imagesloaded = 0;
+        
+        var anImageLoaded = function() {
+        imagesloaded++;
+        document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
+
+         };
+
+
+        
 
 
 for (var i = 0; i < totimg; i++) {
@@ -1763,7 +1829,7 @@ for (var i = 0; i < totimg; i++) {
 
     s.onerror = function() {
         anImageLoaded();
-        console.log("failed to load " + this.src);
+        console.log("failed to load " + this.src + imagesloaded);
 
     };
     s.src = img2load[i];
