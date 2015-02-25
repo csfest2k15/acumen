@@ -10,7 +10,7 @@
     <meta name="keywords" content="Acumen, CS FEST, VASAVI, CSE" />
     <meta name="author" content="little_bit_all" />
     <link rel="shortcut icon" href="favicon.ico">
-    <style type="text/css">
+    <style type="texty/css">
     #loading {
         position: absolute;
         top: 50%;
@@ -203,7 +203,7 @@
                                         <a href="#0" id="opc">
                                             <h3>Online Programing Contest</h3>
                                         </a>
-                                        <p> The Only Thing we Know : CODEING
+                                        <p> The Only Thing we Know : CODING
                                         </p>
                                     </div>
                                 </div>
@@ -308,10 +308,10 @@
                             <tr>
                                 <td class="imp">CONTACT </td>
                                 <td class="details">
-                                    <b>Manchikanti Akhil  (+919030139129)</b> </br>
-                                    <b>Pavan Sai Chippa (+919959114077)</b> </br>
-                                    <b>Madhuri Arugula (+919966551674)</b> </br>
-                                    <b>Savitha Kota (+919908621499)</b> </br>
+                                    <b>Manchikanti Akhil:  9030139129</b> </br>
+                                    <b>Pavan Sai Chippa: 9959114077</b> </br>
+                                    <b>Madhuri Arugula: 9966551674</b> </br>
+                                    <b>Savitha Kota: 9908621499</b> </br>
                                 </td>
                             </tr>
                             <tr>
@@ -392,7 +392,7 @@
                                 <a href="#" onclick="pageTransition(14,-1);">
                                     <h3>Code Hunt</h3>
                                 </a>
-                                <p>we are the hunters they are the prey
+                                <p>we are the hunters  they are the prey can't hide
                                 </p>
                             </div>
                         </div>
@@ -423,9 +423,10 @@
                         <div class="ch-item ch-img-2" style="background-image: url('img/l-geek.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(20,-1);">
-                                    <h3>Geek <span style="margin-left:-14px;">Battle</span></h3>
+                                    <h3>Geek <span style="margin-left:-14px;"> Battle</span></h3>
                                 </a>
                                 <p>
+                                Snippets are waiting for U
                                 </p>
                             </div>
                         </div>
@@ -478,7 +479,7 @@
                         <div class="ch-item ch-img-1" style="background-image: url('img/l-s.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(24,-1);">
-                                    <h3>Tech-no tech</h3>
+                                    <h3>Tech-no Tech</h3>
                                 </a>
                                 <p>
                                 </p>
@@ -489,7 +490,7 @@
                         <div class="ch-item ch-img-2" style="background-image: url('img/l-kin.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(25,-1);">
-                                    <h3>King of  Cards</h3>
+                                    <h3>King of Cards</h3>
                                 </a>
                                 <p>
                                 </p>
@@ -661,13 +662,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Sai Kiran: (+918886239995)</span>
+                        <span class="">Sai Kiran: 8886239995</span>
                         <br>
-                        <span class="">Sai Madan Mohan Reddy: (+919550329534)</span>
+                        <span class="">Sai Madan Mohan Reddy: 9550329534</span>
                         <br>
-                        <span class="">Spoorthy: (+919491445753)</span>
+                        <span class="">Spoorthy: 9491445753</span>
                         <br>
-                        <span class="">Deepak Irukula: (+919700038395)</span>
+                        <span class="">Deepak Irukula: 9700038395</span>
                         <br>
                     </p>
 
@@ -750,13 +751,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Hem Kumar: (+917207165400)</span>
+                        <span class="">James Ballari: 9912615067</span>
                         <br>
-                        <span class="">James Ballari: (+919912615067)</span>
+                        <span class="">Hem Kumar: 7207165400</span>
                         <br>
-                        <span class="">Iqra Tazeen: (+918977099669)</span>
+                        <span class="">Sneha D: 7207635337</span>
                         <br>
-                        <span class="">Sneha D: (+917207635337)</span>
+                        <span class="">Iqra Tazeen: 8977099669</span>
                         <br>
                     </p>
 
@@ -830,13 +831,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Ajay Dasa: (+918897219830)</span>
+                        <span class="">Ajay Dasa: 8897219830</span>
                         <br>
-                        <span class="">Saikeerthana Varala: (+918374524399)</span>
+                        <span class="">Saikeerthana Varala: 8374524399</span>
                         <br>
-                        <span class="">Manisha Vanka: (+918125151994)</span>
+                        <span class="">Manisha Vanka: 8125151994</span>
                         <br>
-                        <span class="">Jagdeesh : (+917842200602)</span>
+                        <span class="">Jagdeesh : 7842200602</span>
                         <br>
                     </p>
 
@@ -906,7 +907,7 @@
                             <li>Paper submitted should be restricted to 3 single sided A4 pages in IEEE format.</li>
                             <li>Submit your papers to <i>ppt.vasavi@gmail.com </i>
                                 <br>with name, ph.no, mail-id, college name and Receipt No. (Your bank transaction no. for online applicants) </li>
-                            <li>Last date for submission is <i>5th March,2015</i>
+                            <li>Last date for submission is <i>4th March,2015</i>
                             </li>
                             <li>All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners</li>
                         </ul>
@@ -919,13 +920,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Venkatesh Musku: (+919533813330)</span>
+                        <span class="">Ujjwala Bollam: 9492440428</span>
                         <br>
-                        <span class="">Ujjwala Bollam: (+919492440428)</span>
+                        <span class="">Venkatesh Musku: 9533813330</span>
                         <br>
-                        <span class="">Sahu Balanagaram: (+918121346484)</span>
+                        <span class="">Sahu Balanagaram: 8121346484</span>
                         <br>
-                        <span class="">Rachana: (+919052699943)</span>
+                        <span class="">Rachana: 9052699943</span>
                         <br>
                     </p>
                     <br>
@@ -998,13 +999,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Ravi Teja: (+917416116305)</span>
+                        <span class="">Ravi Teja: 7416116305</span>
                         <br>
-                        <span class="">Sai Kumar Alluri : (+919603225307)</span>
+                        <span class="">SaiKumar Alluri : 9603225307</span>
                         <br>
-                        <span class="">Yamini Sai Lakshmi: (+918801799498)</span>
+                        <span class="">Yamini Sai Lakshmi: 8801799498</span>
                         <br>
-                        <span class="">Pratibha: (+919652894079)</span>
+                        <span class="">Pratibha: 9652894079</span>
                         <br>
                     </p>
                     <br>
@@ -1067,13 +1068,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Shivani: (+919959887192)</span>
+                        <span class="">Shivani: 9959887192</span>
                         <br>
-                        <span class="">S.Priyanka: (+918801880385)</span>
+                        <span class="">S.Priyanka: 8801880385</span>
                         <br>
-                        <span class="">Nireesh: (+917386464537)</span>
+                        <span class="">Nireesh: 7386464537</span>
                         <br>
-                        <span class="">Venkatesha Kothuri : (+919885946050)</span>
+                        <span class="">Venkatesha Kothuri : 9885946050</span>
                         <br>
                     </p>
                     <br>
@@ -1143,27 +1144,27 @@
                         <br> • Registration fee is Rs.150 only
                         <br> • No paper will be taken in the last 2 days to the fest.
                         <br> • Participants can submit their abstract by contacting the organizers/volunteers in their nearest area from the Nodal Centers option provided.
-                        <br> • Papers shortlisted will be notified through mail/sms on 4th march 2015.
+                        <br> • Papers shortlisted will be notified through mail/sms on 5th march 2015.
                         <br> • A student can give only one paper. (Candidates however can submit more than one paper by paying the requisite amount for each paper but are allowed to present only one among them if selected)
                         <br> • Maximum of 2 participants per group.
                         <br> • Failing to be present when called in presentation will result in disqualification.
                         <br> • No other topics apart from the topic opted will be entertained.
                         <br> • Maximum 15 minute presentation.(13 minutes of talk followed by 2 minutes of questionnaire)
                         <br> • Submit your papers to poster.presentation.vce@gmail.com with name,ph.no,mail-id,college name.
-                        <br> • Last date for submission is 3rd March,2015
+                        <br> • Last date for submission is 4th March,2015
                         <br> • All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners
                         <br>
                         <p/>
                         <p style="padding-top: 30px;">
                             <span class=""><b>For More Details :</b></span>
                             <br>
-                            <span class="">Abhishek: (+918790163573)</span>
+                            <span class="">Abhishek: 8790163573</span>
                             <br>
-                            <span class="">Pooja Sura: (+919966343955)</span>
+                            <span class="">Pooja Sura: 9966343955</span>
                             <br>
-                            <span class="">Vinod: (+919390392396)</span>
+                            <span class="">Vinod: 9390392396</span>
                             <br>
-                            <span class="">Mereena : (+918520035145)</span>
+                            <span class="">Mereena : 8520035145</span>
                             <br>
                         </p>
                         <br>
@@ -1241,13 +1242,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Aravind: (+918885332959)</span>
+                        <span class="">Aravind: 8885332959</span>
                         <br>
-                        <span class="">Vivek: (+919052930003)</span>
+                        <span class="">Vivek: 9052930003</span>
                         <br>
-                        <span class="">Sushma: (+918686961121)</span>
+                        <span class="">Sushma: 8686961121</span>
                         <br>
-                        <span class="">Sarender : (+919494929646)</span>
+                        <span class="">Sarender : 9494929646</span>
                         <br>
                     </p>
                     <br>
@@ -1328,13 +1329,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Anjani: (+917382634494)</span>
+                        <span class="">Anjani: 7382634494</span>
                         <br>
-                        <span class="">Goli Varsha: (+919989093427)</span>
+                        <span class="">Varsha: 9989093427</span>
                         <br>
-                        <span class="">Aizaaz: (+919908483720)</span>
+                        <span class="">Aizaaz: 9908483720</span>
                         <br>
-                        <span class="">Chittaranjan Gutha: (+918121291992)</span>
+                        <span class="">Chittaranjan : 8121291992</span>
                         <br>
                     </p>
                     <br>
@@ -1370,11 +1371,11 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Sushmitha: (+919985634696)</span>
+                        <span class="">Sushmitha: 9985634696</span>
                         <br>
-                        <span class="">K.Sravani: (+918121819701)</span>
+                        <span class="">K.Sravani: 8121819701</span>
                         <br>
-                        <span class="">Shyam: (+919912286637)</span>
+                        <span class="">Shyam: 9912286637</span>
                         <br>
                     </p>
                     <br>
@@ -1412,9 +1413,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Niveditha: (+919493390894)</span>
+                        <span class="">Niveditha: 9493390894</span>
                         <br>
-                        <span class="">Rudra Prashanth: (+917842568292)</span>
+                        <span class="">Rudra Prashanth: 7842568292</span>
                         <br>
                     </p>
                     <br>
@@ -1449,11 +1450,11 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Soumya: (+917702566872)</span>
+                        <span class="">Soumya: 7702566872</span>
                         <br>
-                        <span class="">Beerappa: (+919666995842)</span>
+                        <span class="">Beerappa: 9666995842</span>
                         <br>
-                        <span class="">Sanjay: (+918099064073)</span>
+                        <span class="">Sanjay: 8099064073</span>
                         <br>
                     </p>
                     <br>
@@ -1480,18 +1481,19 @@
             <div class="contains">
                 <h1 style="text-align: center">Who am I</h1>
                 <div class="event-intro" style="color: black;">
-                    <p>You got to roll the dice and set of questions will be asked as per the throw. A sample of questions is given as follows. </p>
-                    <p>
-                        Eg: I can find out the number of characters of a string
-                        <br>Ans: strlen
+                    <p> 
+                    <p>Round 1:</p>
+                 <p>The player needs to roll the dice and based on the number a colour will be selected. The team which picks at least 20 balls of the given colour in the given time limit will be promoted to the second round.</p></br>
+                         <p>Round 2:</p>
+                  <p>Some chits with general questions will be given. The player need to pick a chit and arrange the answer for the question with the letters given. A player should answer minimum of 3 questions in given time.</p>
 
                     </p>
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Shalini: (+919490052674)</span>
+                        <span class="">K.Raga Shalini: 9490052674</span>
                         <br>
-                        <span class="">P.Mounica: (+917842221002)</span>
+                        <span class="">P.Mounica: 7842221002</span>
                         <br>
                     </p>
                     <br>
@@ -1525,9 +1527,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Kavya.P: (+919963593399)</span>
+                        <span class="">Kavya.P: 9963593399</span>
                         <br>
-                        <span class="">Shalini: (+917207120997)</span>
+                        <span class="">Shalini: 7207120997</span>
                         <br>
                     </p>
                     <br>
@@ -1558,11 +1560,11 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Neha Singh: (+918333034969)</span>
+                        <span class="">Neha Singh: 8333034969</span>
                         <br>
-                        <span class="">Ameer: (+919985889497)</span>
+                        <span class="">Ameer: 9985889497</span>
                         <br>
-                        <span class="">Sreedhar: (+919441670373)</span>
+                        <span class="">Sreedhar: 9441670373</span>
                         <br>
                     </p>
                     <br>
@@ -1601,11 +1603,11 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">SriKavya: (+919652233326)</span>
+                        <span class="">SriKavya: 9652233326</span>
                         <br>
-                        <span class="">Amith Reddy M: (+919908172289)</span>
+                        <span class="">Amith Reddy M: 9908172289</span>
                         <br>
-                        <span class="">Manchikanti Akhil: (+919030139129)</span>
+                        <span class="">M Akhil: 9030139129</span>
                         <br>
                     </p>
                     <br>
@@ -1637,7 +1639,7 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Harika: (+919059444658)</span>
+                        <span class="">Harika: 9059444658</span>
                         <br>
                     </p>
                     <br>
@@ -1670,7 +1672,7 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Sandhya: (+918297459199)</span>
+                        <span class="">Sandhya: 8297459199</span>
                         <br>
                     </p>
                     <br>
@@ -1709,9 +1711,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Nikhita Aditham: (+919885937426)</span>
+                        <span class="">Nikhita Aditham: 9885937426</span>
                         <br>
-                        <span class="">S.Poojitha: (+919989256527)</span>
+                        <span class="">S.Poojitha: 9989256527</span>
                         <br>
                     </p>
                     <br>
@@ -1748,9 +1750,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-                        <span class="">Swathi: (+918019232490)</span>
+                        <span class="">Swathi: 8019232490</span>
                         <br>
-                        <span class="">Praveen: (+919030070883)</span>
+                        <span class="">Praveen: 9030070883</span>
                         <br>
                     </p>
                     <br>
