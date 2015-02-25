@@ -1,5 +1,5 @@
 .navcolor {
-    height: 25px;
+    height: 50px;
 }
 .contains {
     height: 100%;
@@ -124,67 +124,6 @@
     width: 100%;
     height: 100%;
     bottom: 40px;
-}
-/* jssor slider bullet navigator skin 21 css */
-/*
-            .jssorb21 div           (normal)
-            .jssorb21 div:hover     (normal mouseover)
-            .jssorb21 .av           (active)
-            .jssorb21 .av:hover     (active mouseover)
-            .jssorb21 .dn           (mousedown)
-            */
-
-.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
-    background: url(../img/b21.png) no-repeat;
-    overflow: hidden;
-    cursor: pointer;
-}
-.jssorb21 div {
-    background-position: -5px -5px;
-}
-.jssorb21 div:hover, .jssorb21 .av:hover {
-    background-position: -35px -5px;
-}
-.jssorb21 .av {
-    background-position: -65px -5px;
-}
-.jssorb21 .dn, .jssorb21 .dn:hover {
-    background-position: -95px -5px;
-}
-/* jssor slider arrow navigator skin 21 css */
-/*
-            .jssora21l              (normal)
-            .jssora21r              (normal)
-            .jssora21l:hover        (normal mouseover)
-            .jssora21r:hover        (normal mouseover)
-            .jssora21ldn            (mousedown)
-            .jssora21rdn            (mousedown)
-            */
-
-.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {
-    position: absolute;
-    cursor: pointer;
-    display: block;
-    background: url(../img/a21.png) center center no-repeat;
-    overflow: hidden;
-}
-.jssora21l {
-    background-position: -3px -33px;
-}
-.jssora21r {
-    background-position: -63px -33px;
-}
-.jssora21l:hover {
-    background-position: -123px -33px;
-}
-.jssora21r:hover {
-    background-position: -183px -33px;
-}
-.jssora21ldn {
-    background-position: -243px -33px;
-}
-.jssora21rdn {
-    background-position: -303px -33px;
 }
 /* Items in events */
 
@@ -366,20 +305,33 @@
 .text-vcenter {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
-}
-.text-vcenter h1 {
-  font-size: 4.5em;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
+  position: absolute;
+  top:5%;
 }
 
+.text-vcenter ul {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.text-vcenter ul li {
+    text-align: justify;
+    display: block;
+    padding-top: 6px;
+
+}
+
+.home {
+    -webkit-transition: background 800ms ease-out 1s;
+    -moz-transition: background 800ms ease-out 1s;
+    -o-transition: background 800ms ease-out 1s;
+    transition: background 800ms ease-out 1s;
+}
 /* additional sections */
 #home {
-  background: url(../img/home.jpg) no-repeat center center fixed; 
+  background: url(../img/carousel.jpg) no-repeat center center fixed; 
   display: table;
-  height: 639px;
+  height: 690px;
   position: relative;
   top: 0%;
   width: 100%;
@@ -389,7 +341,8 @@
   background-size: cover;
 }
 
-#about {
+#about p{
+    color: black;
 }
 
 #services {
@@ -409,9 +362,9 @@
 }
 
 #information {
-  background: url(../img/estate.jpg) no-repeat center center fixed; 
+  background: url(../img/estate.png) no-repeat center center fixed; 
   display: table;
-  height: 800px;
+  height: 690px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -420,13 +373,10 @@
   background-size: cover;
 }
 #information .panel {
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 #google_map {
   height: 500px;
   width: 100%;
-}
-#removeUnderline{
-    text-decoration: none;
 }

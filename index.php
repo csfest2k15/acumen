@@ -31,7 +31,7 @@
     </style>
 
 
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="/maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
      -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -42,14 +42,7 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
     <script src="js/modernizr.custom.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    var imagesloaded = 0;
-    anImageLoaded = function() {
-        imagesloaded++;
-        document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
 
-    };
-    </script>
 
 
 </head>
@@ -61,72 +54,115 @@
         0%
     </div>
 
+<!-- 
+        Fixed Navigation
+        ==================================== -->
+    <header id="navigation" class="navbar-fixed-top navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars fa-2x"></i>
+                </button>
+                <!-- /responsive nav button -->
 
- 
-    <div class="codrops-top clearfix " id="navbartop">
-            <a href="#" onclick="pageTransition(0,-1)" >
-                <span>Acumen</span>
-            </a>
-            <!---
-            <a href="#" onclick="pageTransition(1,-1)">
-                <span>About</span>
-            </a>
-            -->
-            <a href="#" onclick="pageTransition(2,-1)" >
-                <span>Contact</span>
-            </a>
+                <!-- logo -->
+                <a class="navbar-brand" href="#" onclick="pageTransition(0,-1)">
+                    <h1 id="logo">
+                            <span style="
+    font-family: Comic Sans MS;
+    font-size: 25px;
+">Acumen</span> <span style=" font-size: 14px; margin-top: -20px; padding-bottom: 20px; font-family: Lucida Console;
+">2k15</span>
+                        </h1>
+                </a>
+                <!-- /logo -->
+            </div>
 
-            <span>  
+            <!-- main nav -->
+            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <ul id="nav" class="nav navbar-nav">
+                    <li><a href="#" onclick="pageTransition(2,-1)">Contact</a>
+                    </li>
+                    <li><a href="#" onclick="pageTransition(3,-1)">Technical Events</a>
+                    </li>
+                    <li><a href="#" onclick="pageTransition(5,-1)">Non Technical Events</a>
+                    </li>
+                    <li><a href="#" onclick="pageTransition(4,-1)">Register</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /main nav -->
 
-                <a href="#"  class="navdropdown" onclick="pageTransition(3,-1)" > Technical Events </a>
-                    
-                    
-            </span>
-
-            <span>  
-
-                <a href="#"  class="navdropdown" onclick="pageTransition(5,-1)">Non Technical Events </a>
-                    
-                    
-            </span>
+        </div>
+    </header>
+    <!--
+        End Fixed Navigation
+        ==================================== -->
 
 
 
-            <a href="#" onclick="pageTransition(4,-1)" >
-                <span>Sponsors</span>
-            </a>
-
-            <span class="right">
-            <a class="" href="">
-                    <span><img src="img/gplus.png" alt="" width="25px" height="22px"></span>
-            </a>
-            <a class="" href="">
-                <span><img src="img/fshare.png" alt="" width="25px" height="22px"></span>
-            </a>
-            <a class="" href="">
-                <span><img src="img/youtube.png" alt="" width="25px" height="22px"></span>
-            </a>
-            <a class="" href="">
-                <span><img src="img/twitter.png" alt="" width="25px" height="22px"></span>
-            </a>
-            </span>
-        
-    </div>
-
+  
     <div id="pt-main" class="pt-perspective">
 
         <!-- 0. welcome -->
-        <div class="pt-page pt-page-0" style="background-image: url('img/b-w.png');">
-            <div class="navcolor">
-            </div>
+        <div class="pt-page pt-page-0" style="background-color: white;">
+            <div class="contains" id="firstpage">
 
-            <div class="contains">
-
-                <!-- first section - Home -->
+                <!-- first section -  -->
                 <div id="home" class="home">
-                    <div class="text-vcenter">
-                    </div>
+                    <!-- <div id="texthere" style="text-align: center; margin-top: 500px;">
+                        <div id="firsttext">
+                            <h1 style="color: #008B45;">Accumen 2k15</h1>
+                            <h4>The Most Awaited Event is here.</h4>
+                        </div>
+                        <div id="secondtext" style="display: none; margin-top: 400px; margin-right: 200px;">
+                            <h1 style="color: #008B45">Get Ready!!</h1>
+                            <h4>All Fun's About to Rain.</h4>
+                        </div>
+                    </div> --->
+                        <div class="text-vcenter">
+                            <!-- Place this code where you want the badge to render. -->
+                            <ul>
+                                <li>
+                                    <div class="g-plusone" data-annotation="inline" data-width="300" data-href="https:/plus.google.com/118002977867319053964/"></div>
+
+                                </li>
+                                <li>
+                                    <iframe src="/www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAcumenCsfest2k15&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=806763409341507" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+                                </li>
+                                <li>
+                                    <a href="https:/twitter.com/intent/tweet?button_hashtag=AcumenCsfest2k15" class="twitter-hashtag-button">Tweet #AcumenCsfest2k15</a>
+                                    <script>
+                                    ! function(d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0],
+                                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                                        if (!d.getElementById(id)) {
+                                            js = d.createElement(s);
+                                            js.id = id;
+                                            js.src = p + ':/platform.twitter.com/widgets.js';
+                                            fjs.parentNode.insertBefore(js, fjs);
+                                        }
+                                    }(document, 'script', 'twitter-wjs');
+                                    </script>
+                                </li>
+                            </ul>
+
+                        </div>
                 </div>
+                    <script type="text/javascript">
+                (function() {
+                    var po = document.createElement('script');
+                    po.type = 'text/javascript';
+                    po.async = true;
+                    po.src = 'https:/apis.google.com/js/platform.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(po, s);
+                })();
+                </script>
+
+            
                 <!-- /first section -->
 
                 <!-- second section - About -->
@@ -134,21 +170,22 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-                                <iframe width="440" height="270" src="https://www.youtube.com/embed/z8CwsjoE9u4" frameborder="0" allowfullscreen=""></iframe>
+                                <iframe width="440" height="270" src="https:/www.youtube.com/embed/z8CwsjoE9u4" style="
+    margin-top: 80px;" frameborder="0" allowfullscreen=""></iframe>
 
                             </div>
-                            <div class="col-sm-6 text-center" style="color: white; text-align: justify;">
+                            <div class="col-sm-6 text-center" style="color: black; text-align: justify;">
                                 <div class="about">
-                    <h1>Acumen - National Symposium</h1>
-                    <p>The pace of progress in the field of Science & Technology in this millennium has overshadowed the speed of Technological changes in the past decades. Technical Symposiums like Acumen are an effort to catch up with the pace of technological innovation.</p>
-                    <p>
-                        ACUMEN is a technical festival. The event seeks to achieve communication of innovative ideas that promote the cause of the technological advantage among the students and also to keep them abreast with the latest advances in their respective fields. It also opens a window to the participants to interact with people from different backgrounds and upgrade their knowledge.
-                    </p>
-                    <p>
-                        The theme "YOUTH-TECHNOLOGY-FUTURE" asserts the fact that the future of technology lies in the hands of the youth. This is the time for the students to draw out their talents in the areas related to academic routine.
-                    </p>
-                </div>
-                
+                                    <h1>Acumen - National Symposium</h1>
+                                    <p>The pace of progress in the field of Science & Technology in this millennium has overshadowed the speed of Technological changes in the past decades. Technical Symposiums like Acumen are an effort to catch up with the pace of technological innovation.</p>
+                                    <p>
+                                        ACUMEN is a technical festival. The event seeks to achieve communication of innovative ideas that promote the cause of the technological advantage among the students and also to keep them abreast with the latest advances in their respective fields. It also opens a window to the participants to interact with people from different backgrounds and upgrade their knowledge.
+                                    </p>
+                                    <p>
+                                        The theme "YOUTH-TECHNOLOGY-FUTURE" asserts the fact that the future of technology lies in the hands of the youth. This is the time for the students to draw out their talents in the areas related to academic routine.
+                                    </p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -158,10 +195,11 @@
                 <!-- third section - Services -->
                 <div id="services" class="pad-section">
                     <div class="contains">
+                    <h2 align="center">Events to Look For</h2>
                         <ul class="ch-grid" style="background-color:#306d9f;">
                             <li>
                                 <div class="ch-item" style="background-image: url('img/l-opc.png');">
-                                    <div class="ch-info"> 	
+                                    <div class="ch-info">
                                         <a href="#0" id="opc">
                                             <h3>Online Programing Contest</h3>
                                         </a>
@@ -182,12 +220,12 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="ch-item" style="background-image: url('img/l-pe.jpg');" >
+                                <div class="ch-item" style="background-image: url('img/l-pe.jpg');">
                                     <div class="ch-info">
                                         <a href="#0" id="pe">
                                             <h3>Project Expo</h3>
                                         </a>
-                                        <p>Look what I  	have done..!! :)
+                                        <p>Look what I have done..!! :)
                                         </p>
                                     </div>
                                 </div>
@@ -201,28 +239,21 @@
                 <!-- fourth section - Information -->
                 <div id="information" class="pad-section">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6" style="float: right;">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                        <h2 class="panel-title">Additional information</h2>
+                                        <h2 class="panel-title">Updates</h2>
                                     </div>
                                     <div class="panel-body lead">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+                                        <ul>
+                                            <li>Appthon On 2nd March Monday, More info at http:/link </li>
+                                        </ul>
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h2 class="panel-title">Additional information</h2>
-                                    </div>
-                                    <div class="panel-body lead">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                           
+                        
                     </div>
                 </div>
                 <!-- /fourth section -->
@@ -250,7 +281,7 @@
                     </p>
                 </div>
                 <div class=" a-video">
-                    <iframe width="440" height="270" src="https://www.youtube.com/embed/z8CwsjoE9u4" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="440" height="270" src="https:/www.youtube.com/embed/z8CwsjoE9u4" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div> -->
 
@@ -259,10 +290,10 @@
 
         <!-- 2. Contacts -->
         <div class="pt-page pt-page-2" style="background-image: url(img/b-c.png);">
-        <div class="navcolor" style="background-color: #F4A460;">
-            
+            <div class="navcolor" style="background-color: #F4A460;">
+
             </div>
-            
+
             <div class="contains">
                 <div class="contacts" style="color: black;">
                     <h1>Contacts </h1>
@@ -292,12 +323,12 @@
                                 </td>
                             </tr>
                         </table>
-            
+
                     </div>
-            
+
                 </div>
                 <div class=" c-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.82610661964!2d78.38269171871812!3d17.38046038482994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb942a230c2425%3A0xe4bfd802564aecf6!2sVasavi+Engineering+College%2C+9-5-81%2C+Ibrahimbagh%2C+Golkonda%2C+Hyderabad%2C+Andhra+Pradesh+500031!5e0!3m2!1sen!2sin!4v1387305921789" width="450" height="337" frameborder="0" style="border:0"></iframe>
+                    <iframe src="https:/www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.82610661964!2d78.38269171871812!3d17.38046038482994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb942a230c2425%3A0xe4bfd802564aecf6!2sVasavi+Engineering+College%2C+9-5-81%2C+Ibrahimbagh%2C+Golkonda%2C+Hyderabad%2C+Andhra+Pradesh+500031!5e0!3m2!1sen!2sin!4v1387305921789" width="450" height="337" frameborder="0" style="border:0"></iframe>
                 </div>
             </div>
         </div>
@@ -499,7 +530,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="ch-item ch-img-2"  style="background-image: url('img/l-wro.png');">
+                        <div class="ch-item ch-img-2" style="background-image: url('img/l-wro.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(29,-1);">
                                     <h3>Wrong Turn</h3>
@@ -628,7 +659,8 @@
                     <p>Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering. </p>
 
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Sai Kiran: (+918886239995)</span>
                         <br>
                         <span class="">Sai Madan Mohan Reddy: (+919550329534)</span>
@@ -639,7 +671,8 @@
                         <br>
                     </p>
 
-<br><br>
+                    <br>
+                    <br>
 
                 </div>
                 <div class="event-img">
@@ -699,21 +732,24 @@
             <div class="contains">
                 <h1 style="text-align: center">Treasure Hunt Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p><b>Event Description:</b>It contains two rounds. The first round is online event and second is offline. 
+                    <p><b>Event Description:</b>It contains two rounds. The first round is online event and second is offline.
                         <br>
-                        <b>Online round:</b><br> A web portal is designed to cross the first hurdle to the treasure. Shortlisted contestants have to come to Vasavi College of Engineering for the second round.  
+                        <b>Online round:</b>
+                        <br> A web portal is designed to cross the first hurdle to the treasure. Shortlisted contestants have to come to Vasavi College of Engineering for the second round.
                         <br>
-                        <b>Offline round:</b> <br>The aim is to find the final treasure by cracking the hints by moving from place to place. The hints will be given in a technical format i.e., you will be provided with a piece of code (mostly C) like the technical round questions whose output will be your hint to find the next place and then find the treasure. The team to find the treasure in the least time by cracking all the code snippets will be the winner. This game tests the team abilities to crack the code under pressure or visualize its execution in a very short time constraint.
+                        <b>Offline round:</b>
+                        <br>The aim is to find the final treasure by cracking the hints by moving from place to place. The hints will be given in a technical format i.e., you will be provided with a piece of code (mostly C) like the technical round questions whose output will be your hint to find the next place and then find the treasure. The team to find the treasure in the least time by cracking all the code snippets will be the winner. This game tests the team abilities to crack the code under pressure or visualize its execution in a very short time constraint.
                     </p>
 
                     <p>
-                        Contest Website: <a href="#" style="color:black;"><i>http://www.vcefest.in/oth2014</i></a>
+                        Contest Website: <a href="#" style="color:black;"><i>http:/www.vcefest.in/oth2014</i></a>
                     </p>
 
                     <p>Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering. </p>
 
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Hem Kumar: (+917207165400)</span>
                         <br>
                         <span class="">James Ballari: (+919912615067)</span>
@@ -725,7 +761,8 @@
                     </p>
 
 
-<br><br>
+                    <br>
+                    <br>
                 </div>
                 <div class="event-img">
                     <img src="img/b-oth.jpg" alt="" width="300" height="184">
@@ -779,10 +816,10 @@
                 <h1 style="text-align: center"> Project Expo Details </h1>
                 <div class="event-intro" style="color: black; ">
                     <p> <b>Rules</b>
-                        <br>• 	Team should consist of 2 members.
-                        <br>• 	Project can be in any language.
-                        <br>•  	The team can register before the day of fest and also on the day of fest.
-                        <br>•	 Along with the submission, a 10 minutes presentation is to be delivered.
+                        <br>• Team should consist of 2 members.
+                        <br>• Project can be in any language.
+                        <br>• The team can register before the day of fest and also on the day of fest.
+                        <br>• Along with the submission, a 10 minutes presentation is to be delivered.
                         <br>
 
                     </p>
@@ -791,7 +828,8 @@
                     <p> The Round Consists of Project Execution and Demonstration (any kind of app like android, windows 8, iPhone etc can also be done)</p>
 
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Ajay Dasa: (+918897219830)</span>
                         <br>
                         <span class="">Saikeerthana Varala: (+918374524399)</span>
@@ -802,7 +840,8 @@
                         <br>
                     </p>
 
-<br><br>
+                    <br>
+                    <br>
                 </div>
                 <div class="event-img">
                     <img src="img/b-proj.jpg" alt="" width="300" height="184">
@@ -865,8 +904,8 @@
                             <li>No other topics apart from the topic opted will be entertained.</li>
                             <li>Maximum 10 minute presentation.(8 minutes of talk followed by 2 minutes of questionnaire)</li>
                             <li>Paper submitted should be restricted to 3 single sided A4 pages in IEEE format.</li>
-                            <li>Submit your papers to <i>ppt.vasavi@gmail.com </i> <br>with
-                                name, ph.no, mail-id, college name and Receipt No. (Your bank transaction no. for online applicants) </li>
+                            <li>Submit your papers to <i>ppt.vasavi@gmail.com </i>
+                                <br>with name, ph.no, mail-id, college name and Receipt No. (Your bank transaction no. for online applicants) </li>
                             <li>Last date for submission is <i>5th March,2015</i>
                             </li>
                             <li>All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners</li>
@@ -878,7 +917,8 @@
 
 
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Venkatesh Musku: (+919533813330)</span>
                         <br>
                         <span class="">Ujjwala Bollam: (+919492440428)</span>
@@ -888,7 +928,8 @@
                         <span class="">Rachana: (+919052699943)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
 
 
 
@@ -945,16 +986,18 @@
                 <div class="event-intro" style="color: black; ">
                     <p> <b>First round - </b>The participant is given a question and the output of the question is a system’s number or its IP address. He has to go to the system with the corresponding IP address or system number and there will be a folder with a set of questions and here the combination of the outputs of all the questions is a key to another folder where another set of questions await, and so on. The team which takes minimum time to answer five questions will be promoted to the next round.
 
-                    </p><p>The team which takes minimum time to answer five questions will be promoted to the next round.</p>
+                    </p>
+                    <p>The team which takes minimum time to answer five questions will be promoted to the next round.</p>
 
                     <p>
                         <b>Second round-</b> Each question consists of a program in which few lines of the code will be missing.</p>
 
-                        <p>The participant needs to complete the missing code parts. Options will be given for each line of code. Then they have to choose the options in the correct order of missing lines of code. Each option will be represented by a color. Then the options have to be answered through the color of a coin (representing an option). All the coins should be placed in the correct sequence in a limited time.</p>
+                    <p>The participant needs to complete the missing code parts. Options will be given for each line of code. Then they have to choose the options in the correct order of missing lines of code. Each option will be represented by a color. Then the options have to be answered through the color of a coin (representing an option). All the coins should be placed in the correct sequence in a limited time.</p>
 
-                    
-					<p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+
+                    <p style="padding-top: 30px;">
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Ravi Teja: (+917416116305)</span>
                         <br>
                         <span class="">Sai Kumar Alluri : (+919603225307)</span>
@@ -964,7 +1007,8 @@
                         <span class="">Pratibha: (+919652894079)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
                 </div>
                 <div class="event-img">
                     <img src="img/b-cdehunt.png" alt="" width="300" height="184">
@@ -1021,7 +1065,8 @@
 
 
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Shivani: (+919959887192)</span>
                         <br>
                         <span class="">S.Priyanka: (+918801880385)</span>
@@ -1031,7 +1076,8 @@
                         <span class="">Venkatesha Kothuri : (+919885946050)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
                 </div>
                 <div class="event-img">
                     <img src="img/b-fin.jpg" alt="" width="300" height="184">
@@ -1054,7 +1100,7 @@
                 <h1 style="text-align: center">Poster presentation</h1>
                 <div class="event-intro" style="color: black;">
                     <p>In this event, contestants prepare a poster that showcases and effectively presents experiments with given objectives, new ideas related to the field. The main idea of the event is to analyze a topic and think with a new bent of mind. The more creative you get, the higher is your chance of impressing the panel. </p>
-                    
+
 
 
                     <button type="button" class="btn btn-info" onclick="pageTransition(19,7)">Details</button>
@@ -1090,36 +1136,38 @@
                     </p>
 
                     <p>
-                        <b>Second round - </b> Shortlisted people have to give a presentation of their selected abstract on the day of event, on a specified dimension paper (can be A4, A1 charts or posters). 
+                        <b>Second round - </b> Shortlisted people have to give a presentation of their selected abstract on the day of event, on a specified dimension paper (can be A4, A1 charts or posters).
                     </p>
 
-<p><b>Rules</b><br>
-•	Registration fee is Rs.150 only  <br>
-•	No paper will be taken in the last 2 days to the fest.<br>
-•	Participants can submit their abstract by contacting the organizers/volunteers in their nearest area from the Nodal Centers option provided.<br>
-•	Papers shortlisted will be notified through mail/sms on 4th march 2015.<br>
-•	A student can give only one paper. (Candidates however can submit more than one paper by paying the requisite amount for each paper but are allowed to present only one among them if selected)<br>
-•	Maximum of 2 participants per group.<br>
-•	Failing to be present when called in presentation will result in disqualification.<br>
-•	No other topics apart from the topic opted will be entertained.<br>
-•	Maximum 15 minute presentation.(13 minutes of talk followed by 2 minutes of questionnaire)<br>
-•	Submit your papers to poster.presentation.vce@gmail.com with 
-name,ph.no,mail-id,college name.<br>
-•	Last date for submission is 3rd March,2015<br>
-•	All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners<br>
-<p/>
-                    <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
-                        <span class="">Abhishek: (+918790163573)</span>
+                    <p><b>Rules</b>
+                        <br> • Registration fee is Rs.150 only
+                        <br> • No paper will be taken in the last 2 days to the fest.
+                        <br> • Participants can submit their abstract by contacting the organizers/volunteers in their nearest area from the Nodal Centers option provided.
+                        <br> • Papers shortlisted will be notified through mail/sms on 4th march 2015.
+                        <br> • A student can give only one paper. (Candidates however can submit more than one paper by paying the requisite amount for each paper but are allowed to present only one among them if selected)
+                        <br> • Maximum of 2 participants per group.
+                        <br> • Failing to be present when called in presentation will result in disqualification.
+                        <br> • No other topics apart from the topic opted will be entertained.
+                        <br> • Maximum 15 minute presentation.(13 minutes of talk followed by 2 minutes of questionnaire)
+                        <br> • Submit your papers to poster.presentation.vce@gmail.com with name,ph.no,mail-id,college name.
+                        <br> • Last date for submission is 3rd March,2015
+                        <br> • All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners
                         <br>
-                        <span class="">Pooja Sura: (+919966343955)</span>
+                        <p/>
+                        <p style="padding-top: 30px;">
+                            <span class=""><b>For More Details :</b></span>
+                            <br>
+                            <span class="">Abhishek: (+918790163573)</span>
+                            <br>
+                            <span class="">Pooja Sura: (+919966343955)</span>
+                            <br>
+                            <span class="">Vinod: (+919390392396)</span>
+                            <br>
+                            <span class="">Mereena : (+918520035145)</span>
+                            <br>
+                        </p>
                         <br>
-                        <span class="">Vinod: (+919390392396)</span>
                         <br>
-                        <span class="">Mereena : (+918520035145)</span>
-                        <br>
-                    </p>
-<br><br>
 
 
 
@@ -1144,7 +1192,7 @@ name,ph.no,mail-id,college name.<br>
             <div class="contains">
                 <h1 style="text-align: center">Geek Battle</h1>
                 <div class="event-intro" style="color: black;">
-                    <p> Every battle is won before it's ever fought. GeekBattle event is a battle for Geeks. All you have to do is to fight around with your code.   </p>
+                    <p> Every battle is won before it's ever fought. GeekBattle event is a battle for Geeks. All you have to do is to fight around with your code. </p>
 
 
                     <button type="button" class="btn btn-info" onclick="pageTransition(21,19)">Details</button>
@@ -1174,22 +1222,25 @@ name,ph.no,mail-id,college name.<br>
             <div class="contains">
                 <h1 style="text-align: center"> Geek Battle Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p> <b>Round 1: Arrange the code</b><br>Snippets of code is given and those snippets has to be arranged into a correct code within the time limit.
+                    <p> <b>Round 1: Arrange the code</b>
+                        <br>Snippets of code is given and those snippets has to be arranged into a correct code within the time limit.
 
 
                     </p>
 
                     <p>
-                        <b>Round 2: Reverse Coding</b> <br>A hidden file will be given, it can be run as many times as they want. Input must be provided and an output will be generated based upon input and that output pattern must be recognized and coding must be done accordingly.
+                        <b>Round 2: Reverse Coding</b>
+                        <br>A hidden file will be given, it can be run as many times as they want. Input must be provided and an output will be generated based upon input and that output pattern must be recognized and coding must be done accordingly.
 
-                    </p> 
+                    </p>
                     <p>
-                        <b>Round 3: Challenge coding</b> 
+                        <b>Round 3: Challenge coding</b>
                     </p>
 
 
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Aravind: (+918885332959)</span>
                         <br>
                         <span class="">Vivek: (+919052930003)</span>
@@ -1199,7 +1250,8 @@ name,ph.no,mail-id,college name.<br>
                         <span class="">Sarender : (+919494929646)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
 
 
 
@@ -1224,7 +1276,7 @@ name,ph.no,mail-id,college name.<br>
             <div class="contains">
                 <h1 style="text-align: center">Engadget</h1>
                 <div class="event-intro" style="color: black;">
-                    <p>Engadget event specifies a trend of technology around us. We know that "Time and Tide wait for none" so be as quick you can and  show up your passion for technology.</p>
+                    <p>Engadget event specifies a trend of technology around us. We know that "Time and Tide wait for none" so be as quick you can and show up your passion for technology.</p>
 
 
                     <button type="button" class="btn btn-info" onclick="pageTransition(23,56)">Details</button>
@@ -1254,25 +1306,28 @@ name,ph.no,mail-id,college name.<br>
             <div class="contains">
                 <h1 style="text-align: center"> Engadget Details </h1>
                 <div class="event-intro" style="color: black; ">
-                    <p> <b>Round 1_watch and guess</b><br>
-Logos will be displayed on the screens for 45 seconds each, and you will have to guess and write them down on a paper .Top5 teams will be promoted to round 2.
+                    <p> <b>Round 1_watch and guess</b>
+                        <br> Logos will be displayed on the screens for 45 seconds each, and you will have to guess and write them down on a paper .Top5 teams will be promoted to round 2.
 
 
 
                     </p>
 
                     <p>
-                        <b>Round 2-who am i</b> <br>U will be given sheets printed with logos and questions. 10 minutes time will be given .Top 2 teams will enter the finals.
+                        <b>Round 2-who am i</b>
+                        <br>U will be given sheets printed with logos and questions. 10 minutes time will be given .Top 2 teams will enter the finals.
 
                     </p>
                     <p>
-                        <b>Round 3_rapid fire</b> <br>Top teams from all the slots will be taken and there will be a rapid fire round. Questions in this round would pertain to visuals, technology trends.
+                        <b>Round 3_rapid fire</b>
+                        <br>Top teams from all the slots will be taken and there will be a rapid fire round. Questions in this round would pertain to visuals, technology trends.
 
                     </p>
 
 
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Anjani: (+917382634494)</span>
                         <br>
                         <span class="">Goli Varsha: (+919989093427)</span>
@@ -1282,7 +1337,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <span class="">Chittaranjan Gutha: (+918121291992)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
 
 
 
@@ -1311,8 +1367,9 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                     <p>
                         <b>Round2-</b> This round will have a set of questions that has to be answered within a time limit.
                     </p>
- 					<p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                    <p style="padding-top: 30px;">
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Sushmitha: (+919985634696)</span>
                         <br>
                         <span class="">K.Sravani: (+918121819701)</span>
@@ -1320,7 +1377,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <span class="">Shyam: (+919912286637)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
 
 
                 </div>
@@ -1351,14 +1409,16 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
 
 
                     </p>
-					<p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                    <p style="padding-top: 30px;">
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Niveditha: (+919493390894)</span>
                         <br>
                         <span class="">Rudra Prashanth: (+917842568292)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
 
                 </div>
 
@@ -1387,7 +1447,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <b>Round2-</b>Simple C questions will be asked and the answers for those questions should be surfed from the box of chits.
                     </p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Soumya: (+917702566872)</span>
                         <br>
                         <span class="">Beerappa: (+919666995842)</span>
@@ -1395,7 +1456,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <span class="">Sanjay: (+918099064073)</span>
                         <br>
                     </p>
-<br><br>
+                    <br>
+                    <br>
                 </div>
 
 
@@ -1425,13 +1487,15 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
 
                     </p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Shalini: (+919490052674)</span>
                         <br>
                         <span class="">P.Mounica: (+917842221002)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
                 </div>
 
 
@@ -1459,13 +1523,15 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <b>Round2-</b> In round-2 a code with bugs is given, participants have to fix those bugs and should also answer few multiple choice questions.
                     </p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Kavya.P: (+919963593399)</span>
                         <br>
                         <span class="">Shalini: (+917207120997)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
                 </div>
 
 
@@ -1490,7 +1556,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                 <div class="event-intro" style="color: black;">
                     <p>This event would be tricky, participants have to answer the first question when the second question is asked and the flow continues. Whoever flows up with the questions till the last question and answer the first question after the last question wraps up the event</p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Neha Singh: (+918333034969)</span>
                         <br>
                         <span class="">Ameer: (+919985889497)</span>
@@ -1498,7 +1565,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <span class="">Sreedhar: (+919441670373)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
                 </div>
 
 
@@ -1531,7 +1599,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <b>Round3-</b>This is onsite you have to use the App and the round will be activated onsite and the team with fastest and highest score will win.
                     </p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">SriKavya: (+919652233326)</span>
                         <br>
                         <span class="">Amith Reddy M: (+919908172289)</span>
@@ -1539,7 +1608,8 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <span class="">Manchikanti Akhil: (+919030139129)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
 
                 </div>
 
@@ -1565,11 +1635,13 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                 <div class="event-intro" style="color: black;">
                     <p>Disassembled CPU will be given and a small demo of how the CPU is connected is showed before dismantling. Later you have to reassemble the CPU in the shortest possible time.</p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Harika: (+919059444658)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
 
 
                 </div>
@@ -1596,11 +1668,13 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                 <div class="event-intro" style="color: black;">
                     <p>Disassembled Keyboard will be given and the keyboard in connected state is showed before dismantling. Later you have to reassemble the Keyboard in the shortest possible time.</p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Sandhya: (+918297459199)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
 
 
 
@@ -1633,13 +1707,15 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <b>Round2-</b>This round declares the winner based on as many questions answered by the team. The questions would relate to personality and name the product built by that person(Clues will be given to identify them).
                     </p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Nikhita Aditham: (+919885937426)</span>
                         <br>
                         <span class="">S.Poojitha: (+919989256527)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
 
 
                 </div>
@@ -1670,13 +1746,15 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
                         <b>Round2-</b>In this round app logos will be displayed randomly for seconds and the contestants have to write the logos as many as they remember.
                     </p>
                     <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span><br>
+                        <span class=""><b>For More Details :</b></span>
+                        <br>
                         <span class="">Swathi: (+918019232490)</span>
                         <br>
                         <span class="">Praveen: (+919030070883)</span>
                         <br>
                     </p>
-					<br><br>
+                    <br>
+                    <br>
 
 
                 </div>
@@ -1727,31 +1805,81 @@ Logos will be displayed on the screens for 45 seconds each, and you will have to
 
 
 <script type="text/javascript">
-
-
 var img2load = new Array();
 img2load.push("img/loading.gif");
+img2load.push("img/2.jpg");
 img2load.push("img/4.jpg");
 img2load.push("img/5.jpg");
 img2load.push("img/6.jpg");
 img2load.push("img/a21.png");
-img2load.push("img/b21.png");
 img2load.push("img/b-a.png");
 img2load.push("img/b-c.png");
+img2load.push("img/b-cdehunt.png");
 img2load.push("img/b-e1.png");
+img2load.push("img/b-eng.jpg");
+img2load.push("img/b-fin.jpg");
+img2load.push("img/b-gue.jpg");
+img2load.push("img/b-its.jpg");
+img2load.push("img/b-kin.png");
 img2load.push("img/b-nte.png");
+img2load.push("img/b-opc.png");
+img2load.push("img/b-oth.jpg");
+img2load.push("img/b-pos.jpg");
+img2load.push("img/b-ppt.jpg");
+img2load.push("img/b-proj.jpg");
+img2load.push("img/b-qui.jpg");
 img2load.push("img/b-s.jpg");
+img2load.push("img/b-smrt.png");
+img2load.push("img/b-spy.jpg");
 img2load.push("img/b-te.png");
 img2load.push("img/b-w.png");
+img2load.push("img/b-who.png");
+img2load.push("img/b-wro.png");
+img2load.push("img/b21.png");
 img2load.push("img/carousel.jpg");
+img2load.push("img/contact.png");
+img2load.push("img/estate.png");
+img2load.push("img/fshare.png");
+img2load.push("img/gplus.png");
+img2load.push("img/home.jpg");
+img2load.push("img/l-cdehunt.png");
+img2load.push("img/l-code.png");
+img2load.push("img/l-eng.jpg");
+img2load.push("img/l-fin.jpg");
+img2load.push("img/l-geek.png");
+img2load.push("img/l-gue.jpg");
+img2load.push("img/l-its.jpg");
+img2load.push("img/l-kin.png");
 img2load.push("img/l-opc.png");
-img2load.push("img/b-oth.png");
+img2load.push("img/l-oth.png");
+img2load.push("img/l-pe.jpg");
+img2load.push("img/l-pos.jpg");
+img2load.push("img/l-ppt.jpg");
+img2load.push("img/l-proj.jpg");
+img2load.push("img/l-qui.jpg");
+img2load.push("img/l-smrt.png");
+img2load.push("img/l-spy.png");
+img2load.push("img/l-who.png");
+img2load.push("img/l-wro.png");
+img2load.push("img/main code.png");
 img2load.push("img/main_logo.png");
 img2load.push("img/opc_logo.png");
 img2load.push("img/text.png");
 
+var totimg = img2load.length;
 
-var totimg = img2load.length + 1;
+
+
+var imagesloaded = 0;
+
+var anImageLoaded = function() {
+    imagesloaded++;
+    document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
+
+};
+
+
+
 
 
 for (var i = 0; i < totimg; i++) {
@@ -1763,7 +1891,7 @@ for (var i = 0; i < totimg; i++) {
 
     s.onerror = function() {
         anImageLoaded();
-        console.log("failed to load " + this.src);
+        console.log("failed to load " + this.src + imagesloaded);
 
     };
     s.src = img2load[i];
