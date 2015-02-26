@@ -26,6 +26,23 @@ $pages.each(function() {
     $page.data('originalClassList', $page.attr('class'));
 });
 
+var loop=1;
+    setInterval(
+        function() {
+    
+
+            loop++;
+            if(loop%2==0) {
+                        
+                            $('#home').attr('style',"background: url(img/home.jpg) no-repeat center center fixed; display: table; height: 690px; position: relative; top: 0%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;");
+                     
+            } else {
+                            $('#home').attr('style',"background: url(img/carousel.jpg) no-repeat center center fixed; display: table; height: 690px; position: relative; top: 0%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;");
+            }
+        }
+        , 6000);
+
+
 $pages.eq(current).addClass('pt-page-current');
 
 function pageTransition(next, animNum) {
@@ -33,6 +50,7 @@ function pageTransition(next, animNum) {
     if (next == current) {
         return;
     }
+    $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
 
     if (isAnimating) {
         return false;
@@ -362,41 +380,6 @@ function setAnimation(animation) {
 
 }
 
-$("#opc").click(function(){
- 
-BootstrapDialog.show({
-            title: 'Online Programming Contest',
-            message: 'Click buttons below.',
-            buttons: [{
-                label: 'show details',
-                action: function(dialog) {
-                    dialog.setMessage('<b>First Round: Online round. </b>This round is open to all. Participants will be given certain questions and hey would have to code the solutions. The problems will test your ingenuity, insight and your ability to optimize. All you need is a favourite text editor, a basic knowledge of C, C++/JAVA and the satisfaction of seeing your code work first time.. '+"\n\n"+'<b>Second Round:</b> This round is on campus event. The participants shortlisted from the first round will have to come down to Vasavi Campus for the second round. This round has some debugging questions here the team will be given an erroneous code and they will have to remove all the errors to produce the desired output.'+'\n'+' Also other questions where the team has to produce the desired output given a code snippet. The team solving these questions correctly in minimum time wins!!'+'\n\n'+'Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering.'+'\n\n'+
-'For More Details : Sone one : (999999999999999) '+"\n"+'Sone one : (999999999999999) ');
-                }
-            }]
-        });
-        });
-$("#oth").click(function(){
- BootstrapDialog.show({
-            title: 'Online Treasure Hunt',
-            message:'<p>The Event is of two Phases: \n'+
-'<b>Phase - 1</b> Pure Online Event. \n'+
-'<b>Phase - 2</b> The Teams that win the first round will have to attend Phase - 2 at Vasavi College of Engineering, Hyderabad. Teams winning phase 2 at College level are given Prize Money as well as Merit Certificate. Since the Event is Online, you have to use your greatest weapon i.e., Your Brain to Clear the Levels.\n\n'+
-'<a HREF="http://www.vcefest.in/oth2014"><b>Participate Now</b></a>\n\n'+
-'Each team can hold two participants. The participation for the first round is free. The winner gets a merit certificate and prize money. Participation certificates will be awarded to all attending Round 2 at Vasavi College of Engineering.\n\n'+
-'For details contact, \n'+
-'Someone: 999999999 \n'+
-'Someone: : 999999999</p>'});
-}); 
-$("#pe").click(function(){
- BootstrapDialog.show({
-            title: 'Project Expo',
-            message:'Eager to get your projects officially appreciated?! This event provides you with a platform to present your projects and win prizes. Prepare one on spot or showcase your existing one!<br><br>'+
-
-'Participants are requested to get any additional software or hardware needed for the implementation of their projects. Technical support and guidance will be provided up to a limit.'});
-});
-
-
 
 
 
@@ -418,7 +401,24 @@ $("#pe").click(function(){
     }
 
     onReady(function() {
-        show('navbartop', true);
+        show('navigation', true);
         show('pt-main', true);
         show('loading', false);
     });
+
+
+    $("#firstpage").scroll(function () {
+        if ($("#firstpage").scrollTop() > 400) {
+            $("#navigation").css("background-color","#008B45");
+        } else {
+            $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
+        }
+    });
+
+    
+onReady(function() {
+        show('navigation', true);
+        show('pt-main', true);
+        show('loading', false);
+    });
+    
