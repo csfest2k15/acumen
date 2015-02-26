@@ -307,19 +307,6 @@
   text-align: center;
   position: absolute;
   top:5%;
-<<<<<<< HEAD
-}
-
-.text-vcenter ul {
-    list-style: none;
-}
-
-.text-vcenter ul li {
-    text-align: justify;
-    display: block;
-    padding-top: 6px;
-
-=======
 }
 
 .text-vcenter ul {
@@ -339,7 +326,6 @@
     -moz-transition: background 800ms ease-out 1s;
     -o-transition: background 800ms ease-out 1s;
     transition: background 800ms ease-out 1s;
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5
 }
 /* additional sections */
 #home {

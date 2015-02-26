@@ -10,7 +10,7 @@
     <meta name="keywords" content="Acumen, CS FEST, VASAVI, CSE" />
     <meta name="author" content="little_bit_all" />
     <link rel="shortcut icon" href="favicon.ico">
-    <style type="texty/css">
+    <style type="text/css">
     #loading {
         position: absolute;
         top: 50%;
@@ -101,68 +101,6 @@
         End Fixed Navigation
         ==================================== -->
 
-<<<<<<< HEAD:index.html
-
-   <div class="codrops-top clearfix " id="navbartop">
-            <a href="#" onclick="pageTransition(0,-1)">
-                <span>Acumen</span>
-            </a>
-            <!---
-            <a href="#" onclick="pageTransition(1,-1)">
-                <span>About</span>
-            </a>
-            -->
-            <a href="#" onclick="pageTransition(2,-1)">
-                <span>Contact</span>
-            </a>
-
-            <span>  
-
-                <a href="#"  class="navdropdown" onclick="pageTransition(3,-1)"> Technical Events </a>
-                    
-                    
-            </span>
-
-            <span>  
-
-                <a href="#"  class="navdropdown" onclick="pageTransition(5,-1)">Non Technical Events </a>
-                    
-                    
-            </span>
-
-
-
-            <a href="#" onclick="pageTransition(4,-1)">
-                <span>Sponsors</span>
-            </a>
-
-            <span class="right">
-            <a class="" href="">
-                <span> 
-                     <img src="img/gplus.png" alt="" width="25px" height="22px"> 
-                </span>
-            </a>
-            <a class="" href="">
-                <span> 
-                     <img src="img/fshare.png" alt="" width="25px" height="22px"> 
-                </span>
-            </a>
-            <a class="" href="">
-                <span> 
-                     <img src="img/youtube.png" alt="" width="25px" height="22px"> 
-                </span>
-            </a>
-            <a class="" href="">
-                <span> 
-                     <img src="img/twitter.png" alt="" width="25px" height="22px"> 
-                </span>
-            </a>
-            
-            </span>
-        
-    </div>
-=======
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
 
 
   
@@ -174,38 +112,6 @@
 
                 <!-- first section -  -->
                 <div id="home" class="home">
-<<<<<<< HEAD:index.html
-                    <div class="text-vcenter">
-                        <!-- Place this code where you want the badge to render. -->
-                        <ul>
-                            <li>
-                                <div class="g-plusone" data-annotation="inline" data-width="300" data-href="https://plus.google.com/118002977867319053964/"></div>
-
-                            </li>
-                            <li>
-                                <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAcumenCsfest2k15&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=806763409341507" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/intent/tweet?button_hashtag=AcumenCsfest2k15" class="twitter-hashtag-button">Tweet #AcumenCsfest2k15</a>
-                                <script>
-                                ! function(d, s, id) {
-                                    var js, fjs = d.getElementsByTagName(s)[0],
-                                        p = /^http:/.test(d.location) ? 'http' : 'https';
-                                    if (!d.getElementById(id)) {
-                                        js = d.createElement(s);
-                                        js.id = id;
-                                        js.src = p + '://platform.twitter.com/widgets.js';
-                                        fjs.parentNode.insertBefore(js, fjs);
-                                    }
-                                }(document, 'script', 'twitter-wjs');
-                                </script>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-                <script type="text/javascript">
-=======
                     <!-- <div id="texthere" style="text-align: center; margin-top: 500px;">
                         <div id="firsttext">
                             <h1 style="color: #008B45;">Accumen 2k15</h1>
@@ -224,47 +130,28 @@
 
                                 </li>
                                 <li>
-                                    <iframe src="/www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAcumenCsfest2k15&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=806763409341507" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+                                    <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAcumenCsfest2k15&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=806763409341507" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
                                 </li>
                                 <li>
-                                    <a href="https:/twitter.com/intent/tweet?button_hashtag=AcumenCsfest2k15" class="twitter-hashtag-button">Tweet #AcumenCsfest2k15</a>
-                                    <script>
-                                    ! function(d, s, id) {
-                                        var js, fjs = d.getElementsByTagName(s)[0],
-                                            p = /^http:/.test(d.location) ? 'http' : 'https';
-                                        if (!d.getElementById(id)) {
-                                            js = d.createElement(s);
-                                            js.id = id;
-                                            js.src = p + ':/platform.twitter.com/widgets.js';
-                                            fjs.parentNode.insertBefore(js, fjs);
-                                        }
-                                    }(document, 'script', 'twitter-wjs');
-                                    </script>
+                                    <a href="https://twitter.com/intent/tweet?button_hashtag=AcumenCSfest2k15" class="twitter-hashtag-button">Tweet #AcumenCSfest2k15</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                                 </li>
                             </ul>
 
                         </div>
                 </div>
                     <script type="text/javascript">
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                 (function() {
                     var po = document.createElement('script');
                     po.type = 'text/javascript';
                     po.async = true;
-<<<<<<< HEAD:index.html
-                    po.src = 'https://apis.google.com/js/platform.js';
-=======
                     po.src = 'https:/apis.google.com/js/platform.js';
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                     var s = document.getElementsByTagName('script')[0];
                     s.parentNode.insertBefore(po, s);
                 })();
                 </script>
 
-<<<<<<< HEAD:index.html
-=======
             
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                 <!-- /first section -->
 
                 <!-- second section - About -->
@@ -305,7 +192,7 @@
                                         <a href="#0" id="opc">
                                             <h3>Online Programing Contest</h3>
                                         </a>
-                                        <p> The Only Thing we Know : CODING
+                                        <p> The Only Thing we Know : CODEING
                                         </p>
                                     </div>
                                 </div>
@@ -410,10 +297,10 @@
                             <tr>
                                 <td class="imp">CONTACT </td>
                                 <td class="details">
-                                    <b>Manchikanti Akhil:  9030139129</b> </br>
-                                    <b>Pavan Sai Chippa: 9959114077</b> </br>
-                                    <b>Madhuri Arugula: 9966551674</b> </br>
-                                    <b>Savitha Kota: 9908621499</b> </br>
+                                    <b>Manchikanti Akhil  (+919030139129)</b> </br>
+                                    <b>Pavan Sai Chippa (+919959114077)</b> </br>
+                                    <b>Madhuri Arugula (+919966551674)</b> </br>
+                                    <b>Savitha Kota (+919908621499)</b> </br>
                                 </td>
                             </tr>
                             <tr>
@@ -430,7 +317,9 @@
 
                 </div>
                 <div class=" c-map">
-                    <iframe src="https:/www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.82610661964!2d78.38269171871812!3d17.38046038482994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb942a230c2425%3A0xe4bfd802564aecf6!2sVasavi+Engineering+College%2C+9-5-81%2C+Ibrahimbagh%2C+Golkonda%2C+Hyderabad%2C+Andhra+Pradesh+500031!5e0!3m2!1sen!2sin!4v1387305921789" width="450" height="337" frameborder="0" style="border:0"></iframe>
+                    <div class="col-md-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.82610661964!2d78.38269171871812!3d17.38046038482994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb942a230c2425%3A0xe4bfd802564aecf6!2sVasavi+Engineering+College%2C+9-5-81%2C+Ibrahimbagh%2C+Golkonda%2C+Hyderabad%2C+Andhra+Pradesh+500031!5e0!3m2!1sen!2sin!4v1387305921789" width="450" height="337" frameborder="0" style="border:0"></iframe>
+        </div>
                 </div>
             </div>
         </div>
@@ -494,7 +383,7 @@
                                 <a href="#" onclick="pageTransition(14,-1);">
                                     <h3>Code Hunt</h3>
                                 </a>
-                                <p>we are the hunters  they are the prey can't hide
+                                <p>we are the hunters they are the prey
                                 </p>
                             </div>
                         </div>
@@ -525,10 +414,9 @@
                         <div class="ch-item ch-img-2" style="background-image: url('img/l-geek.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(20,-1);">
-                                    <h3>Geek <span style="margin-left:-14px;"> Battle</span></h3>
+                                    <h3>Geek <span style="margin-left:-14px;">Battle</span></h3>
                                 </a>
                                 <p>
-                                Snippets are waiting for U
                                 </p>
                             </div>
                         </div>
@@ -581,7 +469,7 @@
                         <div class="ch-item ch-img-1" style="background-image: url('img/l-s.jpg');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(24,-1);">
-                                    <h3>Tech-no Tech</h3>
+                                    <h3>Tech-no tech</h3>
                                 </a>
                                 <p>
                                 </p>
@@ -592,7 +480,7 @@
                         <div class="ch-item ch-img-2" style="background-image: url('img/l-kin.png');">
                             <div class="ch-info">
                                 <a href="#" onclick="pageTransition(25,-1);">
-                                    <h3>King of Cards</h3>
+                                    <h3>King of  Cards</h3>
                                 </a>
                                 <p>
                                 </p>
@@ -764,17 +652,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Sai Kiran: (+918886239995)</span>
-=======
-                        <span class="">Sai Kiran: 8886239995</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Sai Madan Mohan Reddy: 9550329534</span>
+                        <span class="">Sai Madan Mohan Reddy: (+919550329534)</span>
                         <br>
-                        <span class="">Spoorthy: 9491445753</span>
+                        <span class="">Spoorthy: (+919491445753)</span>
                         <br>
-                        <span class="">Deepak Irukula: 9700038395</span>
+                        <span class="">Deepak Irukula: (+919700038395)</span>
                         <br>
                     </p>
 
@@ -856,19 +740,14 @@
 
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
-<<<<<<< HEAD:index.html
                         <br>
                         <span class="">Hem Kumar: (+917207165400)</span>
-=======
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">James Ballari: 9912615067</span>
+                        <span class="">James Ballari: (+919912615067)</span>
                         <br>
-                        <span class="">Hem Kumar: 7207165400</span>
+                        <span class="">Iqra Tazeen: (+918977099669)</span>
                         <br>
-                        <span class="">Sneha D: 7207635337</span>
-                        <br>
-                        <span class="">Iqra Tazeen: 8977099669</span>
+                        <span class="">Sneha D: (+917207635337)</span>
                         <br>
                     </p>
 
@@ -942,17 +821,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Ajay Dasa: (+918897219830)</span>
-=======
-                        <span class="">Ajay Dasa: 8897219830</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Saikeerthana Varala: 8374524399</span>
+                        <span class="">Saikeerthana Varala: (+918374524399)</span>
                         <br>
-                        <span class="">Manisha Vanka: 8125151994</span>
+                        <span class="">Manisha Vanka: (+918125151994)</span>
                         <br>
-                        <span class="">Jagdeesh : 7842200602</span>
+                        <span class="">Jagdeesh : (+917842200602)</span>
                         <br>
                     </p>
 
@@ -1022,11 +897,7 @@
                             <li>Paper submitted should be restricted to 3 single sided A4 pages in IEEE format.</li>
                             <li>Submit your papers to <i>ppt.vasavi@gmail.com </i>
                                 <br>with name, ph.no, mail-id, college name and Receipt No. (Your bank transaction no. for online applicants) </li>
-<<<<<<< HEAD:index.html
                             <li>Last date for submission is <i>5th March,2015</i>
-=======
-                            <li>Last date for submission is <i>4th March,2015</i>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                             </li>
                             <li>All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners</li>
                         </ul>
@@ -1039,17 +910,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Venkatesh Musku: (+919533813330)</span>
-=======
-                        <span class="">Ujjwala Bollam: 9492440428</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Venkatesh Musku: 9533813330</span>
+                        <span class="">Ujjwala Bollam: (+919492440428)</span>
                         <br>
-                        <span class="">Sahu Balanagaram: 8121346484</span>
+                        <span class="">Sahu Balanagaram: (+918121346484)</span>
                         <br>
-                        <span class="">Rachana: 9052699943</span>
+                        <span class="">Rachana: (+919052699943)</span>
                         <br>
                     </p>
                     <br>
@@ -1117,27 +984,18 @@
                         <b>Second round-</b> Each question consists of a program in which few lines of the code will be missing.</p>
 
                     <p>The participant needs to complete the missing code parts. Options will be given for each line of code. Then they have to choose the options in the correct order of missing lines of code. Each option will be represented by a color. Then the options have to be answered through the color of a coin (representing an option). All the coins should be placed in the correct sequence in a limited time.</p>
-<<<<<<< HEAD:index.html
 
 
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
                         <span class="">Ravi Teja: (+917416116305)</span>
-=======
-
-
-                    <p style="padding-top: 30px;">
-                        <span class=""><b>For More Details :</b></span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Ravi Teja: 7416116305</span>
+                        <span class="">Sai Kumar Alluri : (+919603225307)</span>
                         <br>
-                        <span class="">SaiKumar Alluri : 9603225307</span>
+                        <span class="">Yamini Sai Lakshmi: (+918801799498)</span>
                         <br>
-                        <span class="">Yamini Sai Lakshmi: 8801799498</span>
-                        <br>
-                        <span class="">Pratibha: 9652894079</span>
+                        <span class="">Pratibha: (+919652894079)</span>
                         <br>
                     </p>
                     <br>
@@ -1200,17 +1058,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Shivani: (+919959887192)</span>
-=======
-                        <span class="">Shivani: 9959887192</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">S.Priyanka: 8801880385</span>
+                        <span class="">S.Priyanka: (+918801880385)</span>
                         <br>
-                        <span class="">Nireesh: 7386464537</span>
+                        <span class="">Nireesh: (+917386464537)</span>
                         <br>
-                        <span class="">Venkatesha Kothuri : 9885946050</span>
+                        <span class="">Venkatesha Kothuri : (+919885946050)</span>
                         <br>
                     </p>
                     <br>
@@ -1280,29 +1134,20 @@
                         <br> • Registration fee is Rs.150 only
                         <br> • No paper will be taken in the last 2 days to the fest.
                         <br> • Participants can submit their abstract by contacting the organizers/volunteers in their nearest area from the Nodal Centers option provided.
-<<<<<<< HEAD:index.html
                         <br> • Papers shortlisted will be notified through mail/sms on 4th march 2015.
-=======
-                        <br> • Papers shortlisted will be notified through mail/sms on 5th march 2015.
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br> • A student can give only one paper. (Candidates however can submit more than one paper by paying the requisite amount for each paper but are allowed to present only one among them if selected)
                         <br> • Maximum of 2 participants per group.
                         <br> • Failing to be present when called in presentation will result in disqualification.
                         <br> • No other topics apart from the topic opted will be entertained.
                         <br> • Maximum 15 minute presentation.(13 minutes of talk followed by 2 minutes of questionnaire)
                         <br> • Submit your papers to poster.presentation.vce@gmail.com with name,ph.no,mail-id,college name.
-<<<<<<< HEAD:index.html
                         <br> • Last date for submission is 3rd March,2015
-=======
-                        <br> • Last date for submission is 4th March,2015
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br> • All the submitted candidates will be given Certificate of Participation; Cash price and Merit certificates for winners
                         <br>
                         <p/>
                         <p style="padding-top: 30px;">
                             <span class=""><b>For More Details :</b></span>
                             <br>
-<<<<<<< HEAD:index.html
                             <span class="">Abhishek: (+918790163573)</span>
                             <br>
                             <span class="">Pooja Sura: (+919966343955)</span>
@@ -1310,15 +1155,6 @@
                             <span class="">Vinod: (+919390392396)</span>
                             <br>
                             <span class="">Mereena : (+918520035145)</span>
-=======
-                            <span class="">Abhishek: 8790163573</span>
-                            <br>
-                            <span class="">Pooja Sura: 9966343955</span>
-                            <br>
-                            <span class="">Vinod: 9390392396</span>
-                            <br>
-                            <span class="">Mereena : 8520035145</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                             <br>
                         </p>
                         <br>
@@ -1396,17 +1232,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Aravind: (+918885332959)</span>
-=======
-                        <span class="">Aravind: 8885332959</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Vivek: 9052930003</span>
+                        <span class="">Vivek: (+919052930003)</span>
                         <br>
-                        <span class="">Sushma: 8686961121</span>
+                        <span class="">Sushma: (+918686961121)</span>
                         <br>
-                        <span class="">Sarender : 9494929646</span>
+                        <span class="">Sarender : (+919494929646)</span>
                         <br>
                     </p>
                     <br>
@@ -1487,17 +1319,13 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Anjani: (+917382634494)</span>
-=======
-                        <span class="">Anjani: 7382634494</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Varsha: 9989093427</span>
+                        <span class="">Goli Varsha: (+919989093427)</span>
                         <br>
-                        <span class="">Aizaaz: 9908483720</span>
+                        <span class="">Aizaaz: (+919908483720)</span>
                         <br>
-                        <span class="">Chittaranjan : 8121291992</span>
+                        <span class="">Chittaranjan Gutha: (+918121291992)</span>
                         <br>
                     </p>
                     <br>
@@ -1533,15 +1361,11 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Sushmitha: (+919985634696)</span>
-=======
-                        <span class="">Sushmitha: 9985634696</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">K.Sravani: 8121819701</span>
+                        <span class="">K.Sravani: (+918121819701)</span>
                         <br>
-                        <span class="">Shyam: 9912286637</span>
+                        <span class="">Shyam: (+919912286637)</span>
                         <br>
                     </p>
                     <br>
@@ -1579,13 +1403,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Niveditha: (+919493390894)</span>
-=======
-                        <span class="">Niveditha: 9493390894</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Rudra Prashanth: 7842568292</span>
+                        <span class="">Rudra Prashanth: (+917842568292)</span>
                         <br>
                     </p>
                     <br>
@@ -1620,15 +1440,11 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Soumya: (+917702566872)</span>
-=======
-                        <span class="">Soumya: 7702566872</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Beerappa: 9666995842</span>
+                        <span class="">Beerappa: (+919666995842)</span>
                         <br>
-                        <span class="">Sanjay: 8099064073</span>
+                        <span class="">Sanjay: (+918099064073)</span>
                         <br>
                     </p>
                     <br>
@@ -1655,23 +1471,18 @@
             <div class="contains">
                 <h1 style="text-align: center">Who am I</h1>
                 <div class="event-intro" style="color: black;">
-                    <p> 
-                    <p>Round 1:</p>
-                 <p>The player needs to roll the dice and based on the number a colour will be selected. The team which picks at least 20 balls of the given colour in the given time limit will be promoted to the second round.</p></br>
-                         <p>Round 2:</p>
-                  <p>Some chits with general questions will be given. The player need to pick a chit and arrange the answer for the question with the letters given. A player should answer minimum of 3 questions in given time.</p>
+                    <p>You got to roll the dice and set of questions will be asked as per the throw. A sample of questions is given as follows. </p>
+                    <p>
+                        Eg: I can find out the number of characters of a string
+                        <br>Ans: strlen
 
                     </p>
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Shalini: (+919490052674)</span>
-=======
-                        <span class="">K.Raga Shalini: 9490052674</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">P.Mounica: 7842221002</span>
+                        <span class="">P.Mounica: (+917842221002)</span>
                         <br>
                     </p>
                     <br>
@@ -1705,13 +1516,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Kavya.P: (+919963593399)</span>
-=======
-                        <span class="">Kavya.P: 9963593399</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Shalini: 7207120997</span>
+                        <span class="">Shalini: (+917207120997)</span>
                         <br>
                     </p>
                     <br>
@@ -1741,17 +1548,12 @@
                     <p>This event would be tricky, participants have to answer the first question when the second question is asked and the flow continues. Whoever flows up with the questions till the last question and answer the first question after the last question wraps up the event</p>
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
-<<<<<<< HEAD:index.html
                         <br>
                         <span class="">Neha Singh: (+918333034969)</span>
-=======
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Neha Singh: 8333034969</span>
+                        <span class="">Ameer: (+919985889497)</span>
                         <br>
-                        <span class="">Ameer: 9985889497</span>
-                        <br>
-                        <span class="">Sreedhar: 9441670373</span>
+                        <span class="">Sreedhar: (+919441670373)</span>
                         <br>
                     </p>
                     <br>
@@ -1790,15 +1592,11 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">SriKavya: (+919652233326)</span>
-=======
-                        <span class="">SriKavya: 9652233326</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Amith Reddy M: 9908172289</span>
+                        <span class="">Amith Reddy M: (+919908172289)</span>
                         <br>
-                        <span class="">M Akhil: 9030139129</span>
+                        <span class="">Manchikanti Akhil: (+919030139129)</span>
                         <br>
                     </p>
                     <br>
@@ -1830,11 +1628,7 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Harika: (+919059444658)</span>
-=======
-                        <span class="">Harika: 9059444658</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
                     </p>
                     <br>
@@ -1867,11 +1661,7 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Sandhya: (+918297459199)</span>
-=======
-                        <span class="">Sandhya: 8297459199</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
                     </p>
                     <br>
@@ -1910,13 +1700,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Nikhita Aditham: (+919885937426)</span>
-=======
-                        <span class="">Nikhita Aditham: 9885937426</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">S.Poojitha: 9989256527</span>
+                        <span class="">S.Poojitha: (+919989256527)</span>
                         <br>
                     </p>
                     <br>
@@ -1953,13 +1739,9 @@
                     <p style="padding-top: 30px;">
                         <span class=""><b>For More Details :</b></span>
                         <br>
-<<<<<<< HEAD:index.html
                         <span class="">Swathi: (+918019232490)</span>
-=======
-                        <span class="">Swathi: 8019232490</span>
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
                         <br>
-                        <span class="">Praveen: 9030070883</span>
+                        <span class="">Praveen: (+919030070883)</span>
                         <br>
                     </p>
                     <br>
@@ -2047,11 +1829,7 @@ img2load.push("img/b-wro.png");
 img2load.push("img/b21.png");
 img2load.push("img/carousel.jpg");
 img2load.push("img/contact.png");
-<<<<<<< HEAD:index.html
-img2load.push("img/estate.jpg");
-=======
 img2load.push("img/estate.png");
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
 img2load.push("img/fshare.png");
 img2load.push("img/gplus.png");
 img2load.push("img/home.jpg");
@@ -2075,28 +1853,9 @@ img2load.push("img/l-spy.png");
 img2load.push("img/l-who.png");
 img2load.push("img/l-wro.png");
 img2load.push("img/main code.png");
-<<<<<<< HEAD:index.html
-img2load.push("img/main_logo - Copy.png");
-=======
->>>>>>> 905a099b0279fecd8eda17c9111a65cba8a005c5:index.php
 img2load.push("img/main_logo.png");
 img2load.push("img/opc_logo.png");
 img2load.push("img/text.png");
-img2load.push("img/twitter.png");
-img2load.push("img/youtube.png");
-
-var totimg = img2load.length;
-
-
-
-var imagesloaded = 0;
-
-var anImageLoaded = function() {
-    imagesloaded++;
-    document.getElementById('loading').innerHTML = Math.floor(imagesloaded / totimg * 100) + " %";
-
-};
-
 
 var totimg = img2load.length;
 
